@@ -470,7 +470,7 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
-        "address": "89ff7d04-tm3mo0-tlvsde-1rnrp.nw4.hyhuawei.com",
+        "address": "rou0001ntrhy01.tcp-reset-club.net",
         "port": 443
       },
       "streamSettings": {
@@ -478,10 +478,10 @@
         "security": "tls",
         "hysteriaSettings": {
           "version": 2,
-          "auth": "989aa406-ea9b-11ef-97da-f23c91cfbbc9"
+          "auth": "8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3"
         },
         "tlsSettings": {
-          "serverName": "89ff7d04-tm3mo0-tlvsde-1rnrp.nw4.hyhuawei.com",
+          "serverName": "tcp-reset-club.net",
           "alpn": [
             "h3"
           ]
@@ -524,7 +524,7 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
-        "address": "50.7.121.3",
+        "address": "50.7.120.222",
         "port": 30443
       },
       "streamSettings": {
@@ -551,6 +551,33 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
+        "address": "50.7.121.3",
+        "port": 30443
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "security": "tls",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "0e1506b1-22a4-4b4f-8082-9ddd2efcd28e"
+        },
+        "tlsSettings": {
+          "serverName": "filesconvert.org",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-010",
+      "protocol": "hysteria",
+      "settings": {
+        "version": 2,
         "address": "217.60.179.51",
         "port": 443
       },
@@ -574,7 +601,34 @@
       }
     },
     {
-      "tag": "igareck-node-010",
+      "tag": "igareck-node-011",
+      "protocol": "hysteria",
+      "settings": {
+        "version": 2,
+        "address": "8b327214-tm3mo0-tlvsde-1rnrp.los.hyhuawei.com",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "security": "tls",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "989aa406-ea9b-11ef-97da-f23c91cfbbc9"
+        },
+        "tlsSettings": {
+          "serverName": "8b327214-tm3mo0-tlvsde-1rnrp.los.hyhuawei.com",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-012",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -601,7 +655,7 @@
       }
     },
     {
-      "tag": "igareck-node-011",
+      "tag": "igareck-node-013",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -628,7 +682,7 @@
       }
     },
     {
-      "tag": "igareck-node-012",
+      "tag": "igareck-node-014",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -655,7 +709,242 @@
       }
     },
     {
-      "tag": "igareck-node-013",
+      "tag": "igareck-node-015",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "112.132.215.108",
+            "port": 50002,
+            "users": [
+              {
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-016",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "112.132.215.108",
+            "port": 50002,
+            "users": [
+              {
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-017",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-018",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-019",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "igareck-node-020",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "chatgpt.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-021",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "91.212.166.6",
+            "port": 8090,
+            "password": "dc0d27ba-34d2-4c8b-9cba-9ddbbb632748"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "edge",
+          "publicKey": "6_P9RjLdVkjYb9OHiuckOipbY6DVBp3ajAIpywlCeAk",
+          "shortId": "bc",
+          "spiderX": "/cgNmVH76TF0WzzC"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-022",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -688,40 +977,7 @@
       }
     },
     {
-      "tag": "igareck-node-014",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "91.212.166.6",
-            "port": 8090,
-            "password": "dc0d27ba-34d2-4c8b-9cba-9ddbbb632748"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "ios",
-          "publicKey": "6_P9RjLdVkjYb9OHiuckOipbY6DVBp3ajAIpywlCeAk",
-          "shortId": "bc",
-          "spiderX": "/cgNmVH76TF0WzzC"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-015",
+      "tag": "igareck-node-023",
       "protocol": "trojan",
       "settings": {
         "servers": [
