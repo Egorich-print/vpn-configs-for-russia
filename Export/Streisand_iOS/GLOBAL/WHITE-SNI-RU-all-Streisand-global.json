@@ -59,6 +59,9 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -116,6 +119,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -137,6 +143,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -158,6 +167,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -179,6 +191,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -200,6 +215,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -221,6 +239,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -242,6 +263,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -263,6 +287,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -284,6 +311,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -305,6 +335,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -326,6 +359,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -347,6 +383,9 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:secret-test-de1.minetis.net",
+          "full:secret-test-nl1.minetis.net",
+          "full:uk1.avalonvpn.me",
           "full:rou0001ntrhy01.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -433,6 +472,306 @@
   "outbounds": [
     {
       "tag": "igareck-node-001",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "secret-test-de1.minetis.net",
+            "port": 2087,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "game-grpc",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "firefox",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "0123456789abcdef"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-002",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "secret-test-de1.minetis.net",
+            "port": 2087,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "game-grpc",
+          "multiMode": false
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "ios",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "0123456789abcdef"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "secret-test-de1.minetis.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "ios",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "0123456789abcdef"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "secret-test-de1.minetis.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "firefox",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "0123456789abcdef"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "secret-test-nl1.minetis.net",
+            "port": 2087,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "android",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "9f8e7d6c5b4a3210"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "secret-test-nl1.minetis.net",
+            "port": 2087,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "firefox",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "9f8e7d6c5b4a3210"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "uk1.avalonvpn.me",
+            "port": 443,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "edge",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "9f8e7d6c5b4a3210"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "uk1.avalonvpn.me",
+            "port": 443,
+            "users": [
+              {
+                "id": "ac9a573b-67ff-4953-9e13-4cf43576f8f0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "hh.ru",
+          "fingerprint": "firefox",
+          "publicKey": "8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4",
+          "shortId": "9f8e7d6c5b4a3210"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-009",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
