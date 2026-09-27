@@ -3,13 +3,13 @@
 # Источник/Source: WHITE-CIDR-RU-checked.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Только VK, Yandex, CDNvideo, Beeline
 # Количество/Quantity: 4
-# Date/Time: 2026-09-27 / 08:52 (Moscow)
+# Date/Time: 2026-09-27 / 10:08 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
 
 proxies:
-- name: Igareck Node 001 | 🇵🇱 Poland [*CIDR] VK
+- name: Igareck Node 001 | 🇵🇱 Poland | [*CIDR] VK
   type: vless
   server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
   port: 443
@@ -23,7 +23,7 @@ proxies:
     path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
     headers:
       Host: chaurma.sowt.app
-- name: Igareck Node 002 | 🇵🇱 Poland [*CIDR] VK
+- name: Igareck Node 002 | 🇵🇱 Poland | [*CIDR] VK
   type: vless
   server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
   port: 443
@@ -31,7 +31,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x63\x68\x61\x75\x72\x6d\x61\x2e\x73\x6f\x77\x74\x2e\x61\x70\x70"
-  client-fingerprint: chrome
+  client-fingerprint: ios
   network: ws
   ws-opts:
     path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
