@@ -2,8 +2,8 @@
 # Igareck Mihomo Subscription
 # Источник/Source: WHITE-CIDR-RU-checked.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Только VK, Yandex, CDNvideo, Beeline
-# Количество/Quantity: 8
-# Date/Time: 2026-09-27 / 07:36 (Moscow)
+# Количество/Quantity: 4
+# Date/Time: 2026-09-27 / 08:52 (Moscow)
 #
 # Режим / Mode:
 # - Автоматический Выбор лучшего прокси / Igareck Auto Select;
@@ -151,35 +151,7 @@ sniffer:
       ports: [443, 8443]
 
 proxies:
-- name: Igareck Node 001 | 🇵🇱 Poland | [*CIDR] VK
-  type: vless
-  server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
-  port: 443
-  uuid: "\x39\x65\x34\x66\x36\x37\x35\x62\x2d\x64\x36\x62\x66\x2d\x34\x32\x64\x31\x2d\x62\x65\x35\x35\x2d\x33\x38\x39\x66\x36\x32\x32\x37\x38\x33\x61\x66"
-  udp: true
-  tls: true
-  servername: "\x63\x68\x61\x75\x72\x6d\x61\x2e\x73\x6f\x77\x74\x2e\x61\x70\x70"
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
-    headers:
-      Host: chaurma.sowt.app
-- name: Igareck Node 002 | 🇵🇱 Poland | [*CIDR] VK
-  type: vless
-  server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
-  port: 443
-  uuid: "\x39\x65\x34\x66\x36\x37\x35\x62\x2d\x64\x36\x62\x66\x2d\x34\x32\x64\x31\x2d\x62\x65\x35\x35\x2d\x33\x38\x39\x66\x36\x32\x32\x37\x38\x33\x61\x66"
-  udp: true
-  tls: true
-  servername: "\x63\x68\x61\x75\x72\x6d\x61\x2e\x73\x6f\x77\x74\x2e\x61\x70\x70"
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
-    headers:
-      Host: chaurma.sowt.app
-- name: Igareck Node 003 | 🇵🇱 Poland [*CIDR] VK
+- name: Igareck Node 001 | 🇵🇱 Poland [*CIDR] VK
   type: vless
   server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
   port: 443
@@ -193,7 +165,7 @@ proxies:
     path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
     headers:
       Host: chaurma.sowt.app
-- name: Igareck Node 004 | 🇵🇱 Poland [*CIDR] VK
+- name: Igareck Node 002 | 🇵🇱 Poland [*CIDR] VK
   type: vless
   server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
   port: 443
@@ -207,7 +179,7 @@ proxies:
     path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
     headers:
       Host: chaurma.sowt.app
-- name: Igareck Node 005 | 🇵🇱 Poland [*CIDR] VK
+- name: Igareck Node 003 | 🇵🇱 Poland [*CIDR] VK
   type: vless
   server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
   port: 443
@@ -221,54 +193,20 @@ proxies:
     path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
     headers:
       Host: chaurma.sowt.app
-- name: Igareck Node 006 | 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK
+- name: Igareck Node 004 | 🇵🇱 Poland [*CIDR] VK
   type: vless
-  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x33\x35"
+  server: "\x32\x31\x32\x2e\x32\x33\x33\x2e\x39\x38\x2e\x31\x34"
   port: 443
-  uuid: "\x39\x39\x65\x35\x65\x33\x36\x31\x2d\x39\x32\x32\x36\x2d\x34\x63\x34\x33\x2d\x62\x65\x37\x37\x2d\x31\x30\x63\x31\x32\x64\x64\x32\x35\x33\x62\x63"
+  uuid: "\x39\x65\x34\x66\x36\x37\x35\x62\x2d\x64\x36\x62\x66\x2d\x34\x32\x64\x31\x2d\x62\x65\x35\x35\x2d\x33\x38\x39\x66\x36\x32\x32\x37\x38\x33\x61\x66"
   udp: true
   tls: true
-  servername: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
-  alpn:
-  - http/1.1
-  client-fingerprint: edge
+  servername: "\x63\x68\x61\x75\x72\x6d\x61\x2e\x73\x6f\x77\x74\x2e\x61\x70\x70"
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /euws
+    path: /gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407
     headers:
-      Host: katering.coteite.pro
-- name: Igareck Node 007 | 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK
-  type: vless
-  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x33\x35"
-  port: 443
-  uuid: "\x39\x39\x65\x35\x65\x33\x36\x31\x2d\x39\x32\x32\x36\x2d\x34\x63\x34\x33\x2d\x62\x65\x37\x37\x2d\x31\x30\x63\x31\x32\x64\x64\x32\x35\x33\x62\x63"
-  udp: true
-  tls: true
-  servername: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
-  alpn:
-  - http/1.1
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /euws
-    headers:
-      Host: katering.coteite.pro
-- name: Igareck Node 008 | 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK
-  type: vless
-  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x33\x35"
-  port: 443
-  uuid: "\x39\x39\x65\x35\x65\x33\x36\x31\x2d\x39\x32\x32\x36\x2d\x34\x63\x34\x33\x2d\x62\x65\x37\x37\x2d\x31\x30\x63\x31\x32\x64\x64\x32\x35\x33\x62\x63"
-  udp: true
-  tls: true
-  servername: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
-  alpn:
-  - http/1.1
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /euws
-    headers:
-      Host: katering.coteite.pro
+      Host: chaurma.sowt.app
 
 proxy-groups:
   - name: "Igareck Auto Select (Автоподключение)"
