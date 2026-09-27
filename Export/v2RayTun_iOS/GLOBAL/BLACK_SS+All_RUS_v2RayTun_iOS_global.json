@@ -107,6 +107,160 @@
   "outbounds": [
     {
       "tag": "igareck-node-001",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "igareck-node-002",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "152.53.80.195",
+            "port": 443,
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "abr2.freeguard.org",
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "152.53.80.195",
+            "port": 443,
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "abr2.freeguard.org",
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "152.53.80.195",
+            "port": 443,
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "abr2.freeguard.org",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "152.53.80.195",
+            "port": 443,
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "abr2.freeguard.org",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -139,7 +293,7 @@
       }
     },
     {
-      "tag": "igareck-node-002",
+      "tag": "igareck-node-007",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -172,7 +326,7 @@
       }
     },
     {
-      "tag": "igareck-node-003",
+      "tag": "igareck-node-008",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -205,7 +359,7 @@
       }
     },
     {
-      "tag": "igareck-node-004",
+      "tag": "igareck-node-009",
       "protocol": "trojan",
       "settings": {
         "servers": [
