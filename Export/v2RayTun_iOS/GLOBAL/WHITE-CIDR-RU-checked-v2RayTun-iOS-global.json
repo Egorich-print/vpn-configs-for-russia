@@ -426,7 +426,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "chaurma.sowt.app",
-          "fingerprint": "android"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -462,7 +462,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "chaurma.sowt.app",
-          "fingerprint": "edge"
+          "fingerprint": "random"
         }
       }
     },
@@ -498,7 +498,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "chaurma.sowt.app",
-          "fingerprint": "chrome"
+          "fingerprint": "android"
         }
       }
     },
@@ -508,11 +508,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.235",
+            "address": "212.233.98.14",
             "port": 443,
             "users": [
               {
-                "id": "e6d10adc-5554-4737-b302-991d71faf031",
+                "id": "9e4f675b-d6bf-42d1-be55-389f622783af",
                 "encryption": "none"
               }
             ]
@@ -526,18 +526,15 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/euws",
+          "path": "/gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407",
           "headers": {
-            "Host": "katering.coteite.pro"
+            "Host": "chaurma.sowt.app"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "android",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "chaurma.sowt.app",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -547,11 +544,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.235",
+            "address": "212.233.98.14",
             "port": 443,
             "users": [
               {
-                "id": "e6d10adc-5554-4737-b302-991d71faf031",
+                "id": "9e4f675b-d6bf-42d1-be55-389f622783af",
                 "encryption": "none"
               }
             ]
@@ -565,18 +562,15 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/euws",
+          "path": "/gateway/v1/ws/4ce5d6fbd2426f525eb0a536c35f9407",
           "headers": {
-            "Host": "katering.coteite.pro"
+            "Host": "chaurma.sowt.app"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "chaurma.sowt.app",
+          "fingerprint": "edge"
         }
       }
     },
@@ -590,7 +584,7 @@
             "port": 443,
             "users": [
               {
-                "id": "e6d10adc-5554-4737-b302-991d71faf031",
+                "id": "99e5e361-9226-4c43-be77-10c12dd253bc",
                 "encryption": "none"
               }
             ]
@@ -613,6 +607,84 @@
         "tlsSettings": {
           "serverName": "katering.coteite.pro",
           "fingerprint": "edge",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.235",
+            "port": 443,
+            "users": [
+              {
+                "id": "99e5e361-9226-4c43-be77-10c12dd253bc",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/euws",
+          "headers": {
+            "Host": "katering.coteite.pro"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "ios",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.235",
+            "port": 443,
+            "users": [
+              {
+                "id": "99e5e361-9226-4c43-be77-10c12dd253bc",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/euws",
+          "headers": {
+            "Host": "katering.coteite.pro"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "qq",
           "alpn": [
             "http/1.1"
           ]
