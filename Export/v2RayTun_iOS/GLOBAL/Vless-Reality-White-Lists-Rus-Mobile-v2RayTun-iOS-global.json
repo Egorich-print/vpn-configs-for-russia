@@ -400,11 +400,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.255.110.194",
+            "address": "193.163.203.199",
             "port": 443,
             "users": [
               {
-                "id": "2412bd96-925b-43f2-81d1-0ed4f0793699",
+                "id": "3e2591b2-4739-4c59-b540-344f0b6505ac",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -425,10 +425,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "repo1.maven.org",
-          "fingerprint": "edge",
-          "publicKey": "B_U5JqjAEFux2lRqo-RRwi1Lk4JKtQ-QAPFjwTE6ZXs",
-          "shortId": "7c696636b2578f3c"
+          "serverName": "x6.megabitvpn.org",
+          "fingerprint": "chrome",
+          "publicKey": "xa2v36oJSdYGM1SSiMYyehw9RTdlBHOLcE5-YOK6unE",
+          "shortId": "3c7ab85b281ecc8f"
         }
       }
     },
@@ -438,11 +438,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.255.110.194",
+            "address": "193.163.203.199",
             "port": 443,
             "users": [
               {
-                "id": "2412bd96-925b-43f2-81d1-0ed4f0793699",
+                "id": "3e2591b2-4739-4c59-b540-344f0b6505ac",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -463,10 +463,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "repo1.maven.org",
-          "fingerprint": "firefox",
-          "publicKey": "B_U5JqjAEFux2lRqo-RRwi1Lk4JKtQ-QAPFjwTE6ZXs",
-          "shortId": "7c696636b2578f3c"
+          "serverName": "x6.megabitvpn.org",
+          "fingerprint": "edge",
+          "publicKey": "xa2v36oJSdYGM1SSiMYyehw9RTdlBHOLcE5-YOK6unE",
+          "shortId": "3c7ab85b281ecc8f"
         }
       }
     },
@@ -476,11 +476,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.255.110.194",
+            "address": "193.163.203.199",
             "port": 443,
             "users": [
               {
-                "id": "2412bd96-925b-43f2-81d1-0ed4f0793699",
+                "id": "3e2591b2-4739-4c59-b540-344f0b6505ac",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -501,10 +501,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "repo1.maven.org",
-          "fingerprint": "ios",
-          "publicKey": "B_U5JqjAEFux2lRqo-RRwi1Lk4JKtQ-QAPFjwTE6ZXs",
-          "shortId": "7c696636b2578f3c"
+          "serverName": "x6.megabitvpn.org",
+          "fingerprint": "firefox",
+          "publicKey": "xa2v36oJSdYGM1SSiMYyehw9RTdlBHOLcE5-YOK6unE",
+          "shortId": "3c7ab85b281ecc8f"
         }
       }
     },
@@ -514,11 +514,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "92.255.110.194",
+            "address": "193.163.203.199",
             "port": 443,
             "users": [
               {
-                "id": "2412bd96-925b-43f2-81d1-0ed4f0793699",
+                "id": "3e2591b2-4739-4c59-b540-344f0b6505ac",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -539,10 +539,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "repo1.maven.org",
-          "fingerprint": "safari",
-          "publicKey": "B_U5JqjAEFux2lRqo-RRwi1Lk4JKtQ-QAPFjwTE6ZXs",
-          "shortId": "7c696636b2578f3c"
+          "serverName": "x6.megabitvpn.org",
+          "fingerprint": "qq",
+          "publicKey": "xa2v36oJSdYGM1SSiMYyehw9RTdlBHOLcE5-YOK6unE",
+          "shortId": "3c7ab85b281ecc8f"
         }
       }
     },
@@ -552,11 +552,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.8.228.167",
-            "port": 443,
+            "address": "188.225.25.191",
+            "port": 6003,
             "users": [
               {
-                "id": "953358cb-82ba-4296-960d-6d2ec3468f4c",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -570,15 +570,29 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/xhttp_client_upload",
-          "mode": "packet-up"
+          "path": "/media/playback/v1/SessionGateway",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "64-128",
+              "maxConcurrency": "16-32",
+              "maxConnections": 0,
+              "hKeepAlivePeriod": 30,
+              "hMaxRequestTimes": "800-1200",
+              "hMaxReusableSecs": "1800-3600"
+            },
+            "xPaddingBytes": "100-1000",
+            "scMaxEachPostBytes": "1000000",
+            "scStreamUpServerSecs": "20-80"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "bl3fk52.sysopnova.art",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fin.centermass.net",
           "fingerprint": "edge",
-          "publicKey": "n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ",
-          "shortId": "5eca"
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -588,11 +602,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.8.228.167",
-            "port": 443,
+            "address": "188.225.25.191",
+            "port": 6003,
             "users": [
               {
-                "id": "953358cb-82ba-4296-960d-6d2ec3468f4c",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -606,15 +620,29 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/xhttp_client_upload",
-          "mode": "packet-up"
+          "path": "/media/playback/v1/SessionGateway",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "64-128",
+              "maxConcurrency": "16-32",
+              "maxConnections": 0,
+              "hKeepAlivePeriod": 30,
+              "hMaxRequestTimes": "800-1200",
+              "hMaxReusableSecs": "1800-3600"
+            },
+            "xPaddingBytes": "100-1000",
+            "scMaxEachPostBytes": "1000000",
+            "scStreamUpServerSecs": "20-80"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "bl3fk52.sysopnova.art",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fin.centermass.net",
           "fingerprint": "firefox",
-          "publicKey": "n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ",
-          "shortId": "5eca"
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -624,11 +652,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.8.228.167",
-            "port": 443,
+            "address": "188.225.25.191",
+            "port": 6003,
             "users": [
               {
-                "id": "953358cb-82ba-4296-960d-6d2ec3468f4c",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -642,15 +670,29 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/xhttp_client_upload",
-          "mode": "packet-up"
+          "path": "/media/playback/v1/SessionGateway",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "64-128",
+              "maxConcurrency": "16-32",
+              "maxConnections": 0,
+              "hKeepAlivePeriod": 30,
+              "hMaxRequestTimes": "800-1200",
+              "hMaxReusableSecs": "1800-3600"
+            },
+            "xPaddingBytes": "100-1000",
+            "scMaxEachPostBytes": "1000000",
+            "scStreamUpServerSecs": "20-80"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "bl3fk52.sysopnova.art",
-          "fingerprint": "ios",
-          "publicKey": "n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ",
-          "shortId": "5eca"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fin.centermass.net",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -660,11 +702,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.8.228.167",
-            "port": 443,
+            "address": "188.225.25.191",
+            "port": 6003,
             "users": [
               {
-                "id": "953358cb-82ba-4296-960d-6d2ec3468f4c",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -678,15 +720,29 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/xhttp_client_upload",
-          "mode": "packet-up"
+          "path": "/media/playback/v1/SessionGateway",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": "64-128",
+              "maxConcurrency": "16-32",
+              "maxConnections": 0,
+              "hKeepAlivePeriod": 30,
+              "hMaxRequestTimes": "800-1200",
+              "hMaxReusableSecs": "1800-3600"
+            },
+            "xPaddingBytes": "100-1000",
+            "scMaxEachPostBytes": "1000000",
+            "scStreamUpServerSecs": "20-80"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "bl3fk52.sysopnova.art",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fin.centermass.net",
           "fingerprint": "safari",
-          "publicKey": "n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ",
-          "shortId": "5eca"
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -720,7 +776,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "mc.yandex.tr",
-          "fingerprint": "firefox",
+          "fingerprint": "edge",
           "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
           "shortId": "94c9dbbf07366d96"
         }
@@ -756,7 +812,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "mc.yandex.tr",
-          "fingerprint": "ios",
+          "fingerprint": "qq",
           "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
           "shortId": "94c9dbbf07366d96"
         }
@@ -792,7 +848,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "mc.yandex.tr",
-          "fingerprint": "random",
+          "fingerprint": "chrome",
           "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
           "shortId": "94c9dbbf07366d96"
         }
@@ -823,97 +879,7 @@
         },
         "xhttpSettings": {
           "path": "/script",
-          "mode": "auto",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "mc.yandex.tr",
-          "fingerprint": "safari",
-          "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
-          "shortId": "94c9dbbf07366d96"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-013",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "84.38.187.169",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0037-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/script",
           "host": "84.38.187.169"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "mc.yandex.tr",
-          "fingerprint": "safari",
-          "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
-          "shortId": "94c9dbbf07366d96"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-014",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "84.38.187.169",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0037-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/script",
-          "mode": "auto",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
         },
         "security": "reality",
         "realitySettings": {
@@ -925,16 +891,16 @@
       }
     },
     {
-      "tag": "igareck-node-015",
+      "tag": "igareck-node-013",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "84.38.187.169",
+            "address": "161.104.38.98",
             "port": 443,
             "users": [
               {
-                "id": "553d8193-d897-0037-bb46-f075b670f22a",
+                "id": "553d8193-d897-0024-bb46-f075b670f22a",
                 "encryption": "none"
               }
             ]
@@ -948,8 +914,78 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/script",
-          "mode": "auto",
+          "path": "/assets"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "firefox",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-014",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0024-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "qq",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-015",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0024-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets",
+          "mode": "packet-up",
           "extra": {
             "xmux": {
               "cMaxReuseTimes": 0.0,
@@ -962,10 +998,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "mc.yandex.tr",
-          "fingerprint": "qq",
-          "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
-          "shortId": "94c9dbbf07366d96"
+          "serverName": "donatov.net",
+          "fingerprint": "chrome",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
         }
       }
     },
@@ -975,11 +1011,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.38.187.169",
+            "address": "161.104.38.98",
             "port": 443,
             "users": [
               {
-                "id": "553d8193-d897-0037-bb46-f075b670f22a",
+                "id": "553d8193-d897-0024-bb46-f075b670f22a",
                 "encryption": "none"
               }
             ]
@@ -993,8 +1029,8 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/script",
-          "mode": "auto",
+          "path": "/assets",
+          "mode": "packet-up",
           "extra": {
             "xmux": {
               "cMaxReuseTimes": 0.0,
@@ -1007,10 +1043,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "mc.yandex.tr",
-          "fingerprint": "random",
-          "publicKey": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
-          "shortId": "94c9dbbf07366d96"
+          "serverName": "donatov.net",
+          "fingerprint": "ios",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
         }
       }
     },
@@ -1038,13 +1074,12 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98"
+          "path": "/assets"
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -1074,8 +1109,7 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98"
+          "path": "/assets"
         },
         "security": "reality",
         "realitySettings": {
@@ -1111,12 +1145,21 @@
         },
         "xhttpSettings": {
           "path": "/assets",
-          "host": "161.104.38.98"
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": 0.0,
+              "hKeepAlivePeriod": 0.0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "maxConnections": 2.0
+            }
+          }
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "safari",
+          "fingerprint": "android",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -1146,182 +1189,6 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/assets"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "firefox",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-021",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "qq",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-022",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "random",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-023",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "safari",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-024",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "android",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-025",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
           "path": "/assets",
           "mode": "packet-up",
           "extra": {
@@ -1344,151 +1211,16 @@
       }
     },
     {
-      "tag": "igareck-node-026",
+      "tag": "igareck-node-021",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "161.104.38.98",
-            "port": 443,
+            "address": "188.225.25.191",
+            "port": 8002,
             "users": [
               {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "firefox",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-027",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "ios",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-028",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0024-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "random",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-029",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.139.42.138",
-            "port": 443,
-            "users": [
-              {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -1502,15 +1234,301 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
+          "serverName": "tr1.centermass.net",
+          "fingerprint": "android",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-022",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 8002,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tr1.centermass.net",
           "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-023",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 8002,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tr1.centermass.net",
+          "fingerprint": "edge",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-024",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 8002,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tr1.centermass.net",
+          "fingerprint": "qq",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-025",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.38.181.249",
+            "port": 443,
+            "users": [
+              {
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "edge",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-026",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.38.181.249",
+            "port": 443,
+            "users": [
+              {
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "ios",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-027",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.38.181.249",
+            "port": 443,
+            "users": [
+              {
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "qq",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-028",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.38.181.249",
+            "port": 443,
+            "users": [
+              {
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "safari",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-029",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.151.31.205",
+            "port": 5002,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "br.centermass.net",
+          "fingerprint": "android",
           "alpn": [
             "http/1.1"
           ]
@@ -1523,11 +1541,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "45.151.31.205",
+            "port": 5002,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -1541,14 +1559,12 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
+          "serverName": "br.centermass.net",
           "fingerprint": "ios",
           "alpn": [
             "http/1.1"
@@ -1562,11 +1578,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "45.151.31.205",
+            "port": 5002,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
                 "encryption": "none"
               }
             ]
@@ -1580,14 +1596,12 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
+          "serverName": "br.centermass.net",
           "fingerprint": "qq",
           "alpn": [
             "http/1.1"
@@ -1601,6 +1615,43 @@
       "settings": {
         "vnext": [
           {
+            "address": "45.151.31.205",
+            "port": 5002,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "media.playback.v1.SessionGateway",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "br.centermass.net",
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-033",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "37.139.42.138",
             "port": 443,
             "users": [
@@ -1627,56 +1678,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "edge",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-033",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0032-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "edge",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1686,11 +1688,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "161.104.38.98",
+            "address": "37.139.42.138",
             "port": 443,
             "users": [
               {
-                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
                 "encryption": "none"
               }
             ]
@@ -1698,31 +1700,21 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "firefox",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1732,11 +1724,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "161.104.38.98",
+            "address": "37.139.42.138",
             "port": 443,
             "users": [
               {
-                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
                 "encryption": "none"
               }
             ]
@@ -1744,31 +1736,21 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "ios",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "ios"
         }
       }
     },
@@ -1778,11 +1760,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "161.104.38.98",
+            "address": "37.139.42.138",
             "port": 443,
             "users": [
               {
-                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
                 "encryption": "none"
               }
             ]
@@ -1790,22 +1772,21 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98",
-          "mode": "auto"
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "firefox",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "qq"
         }
       }
     },
@@ -1834,14 +1815,15 @@
         },
         "xhttpSettings": {
           "path": "/assets",
-          "mode": "auto",
+          "host": "161.104.38.98",
+          "mode": "packet-up",
           "extra": {
             "xmux": {
-              "maxConnections": "2",
-              "cMaxReuseTimes": "0",
+              "cMaxReuseTimes": 0.0,
+              "hKeepAlivePeriod": 0.0,
               "hMaxRequestTimes": "600-900",
               "hMaxReusableSecs": "1800-3000",
-              "hKeepAlivePeriod": 0
+              "maxConnections": 2.0
             }
           }
         },
@@ -1879,6 +1861,7 @@
         },
         "xhttpSettings": {
           "path": "/assets",
+          "host": "161.104.38.98",
           "mode": "packet-up",
           "extra": {
             "xmux": {
@@ -1893,7 +1876,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "edge",
+          "fingerprint": "random",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -1924,21 +1907,13 @@
         },
         "xhttpSettings": {
           "path": "/assets",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
-            }
-          }
+          "host": "161.104.38.98",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "firefox",
+          "fingerprint": "edge",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -1969,21 +1944,21 @@
         },
         "xhttpSettings": {
           "path": "/assets",
-          "mode": "packet-up",
+          "mode": "auto",
           "extra": {
             "xmux": {
-              "cMaxReuseTimes": 0.0,
-              "hKeepAlivePeriod": 0.0,
+              "maxConnections": "2",
+              "cMaxReuseTimes": "0",
               "hMaxRequestTimes": "600-900",
               "hMaxReusableSecs": "1800-3000",
-              "maxConnections": 2.0
+              "hKeepAlivePeriod": 0
             }
           }
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "ios",
+          "fingerprint": "random",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2028,7 +2003,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "safari",
+          "fingerprint": "edge",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2036,6 +2011,51 @@
     },
     {
       "tag": "igareck-node-042",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": 0.0,
+              "hKeepAlivePeriod": 0.0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "maxConnections": 2.0
+            }
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "qq",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-043",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2081,43 +2101,6 @@
       }
     },
     {
-      "tag": "igareck-node-043",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "161.104.38.98",
-            "port": 443,
-            "users": [
-              {
-                "id": "553d8193-d897-0032-bb46-f075b670f22a",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/assets",
-          "host": "161.104.38.98",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "donatov.net",
-          "fingerprint": "android",
-          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
-          "shortId": "8ba6e72ee60667f6"
-        }
-      }
-    },
-    {
       "tag": "igareck-node-044",
       "protocol": "vless",
       "settings": {
@@ -2143,12 +2126,21 @@
         "xhttpSettings": {
           "path": "/assets",
           "host": "161.104.38.98",
-          "mode": "auto"
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": 0.0,
+              "hKeepAlivePeriod": 0.0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "maxConnections": 2.0
+            }
+          }
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "edge",
+          "fingerprint": "chrome",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2185,7 +2177,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "ios",
+          "fingerprint": "android",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2216,21 +2208,13 @@
         },
         "xhttpSettings": {
           "path": "/assets",
-          "mode": "auto",
-          "extra": {
-            "xmux": {
-              "maxConnections": "2",
-              "cMaxReuseTimes": "0",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "hKeepAlivePeriod": 0
-            }
-          }
+          "host": "161.104.38.98",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "android",
+          "fingerprint": "firefox",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2261,21 +2245,13 @@
         },
         "xhttpSettings": {
           "path": "/assets",
-          "mode": "auto",
-          "extra": {
-            "xmux": {
-              "maxConnections": "2",
-              "cMaxReuseTimes": "0",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "1800-3000",
-              "hKeepAlivePeriod": 0
-            }
-          }
+          "host": "161.104.38.98",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "chrome",
+          "fingerprint": "ios",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2320,7 +2296,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "donatov.net",
-          "fingerprint": "qq",
+          "fingerprint": "android",
           "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
           "shortId": "8ba6e72ee60667f6"
         }
@@ -2328,6 +2304,482 @@
     },
     {
       "tag": "igareck-node-049",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets",
+          "mode": "auto",
+          "extra": {
+            "xmux": {
+              "maxConnections": "2",
+              "cMaxReuseTimes": "0",
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "chrome",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-050",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets",
+          "mode": "auto",
+          "extra": {
+            "xmux": {
+              "maxConnections": "2",
+              "cMaxReuseTimes": "0",
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "qq",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-051",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": 0.0,
+              "hKeepAlivePeriod": 0.0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "maxConnections": 2.0
+            }
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "chrome",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-052",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "161.104.38.98",
+            "port": 443,
+            "users": [
+              {
+                "id": "553d8193-d897-0032-bb46-f075b670f22a",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/assets",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "cMaxReuseTimes": 0.0,
+              "hKeepAlivePeriod": 0.0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "maxConnections": 2.0
+            }
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "donatov.net",
+          "fingerprint": "ios",
+          "publicKey": "kYwdZueXQt_DEKPrWTw8yoj6G4AWqupg8UrWjAgWbkE",
+          "shortId": "8ba6e72ee60667f6"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-053",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.249.125",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-054",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.249.125",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-055",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.249.125",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-056",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "176.108.249.125",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-057",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-058",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "edge",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-059",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-060",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.225.25.191",
+            "port": 5001,
+            "users": [
+              {
+                "id": "cca9291b-a7b7-4a47-80cd-2a6242856e97",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "grpcSettings": {
+          "serviceName": "media.playback.v1.SessionGateway",
+          "multiMode": false
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus.centermass.net",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-061",
       "protocol": "vless",
       "settings": {
         "vnext": [
