@@ -3,12 +3,12 @@
     "name": "WHITE-CIDR-RU-checked — v2rayNG Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "17 proxies",
+      "22 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "v2rayNG",
     "source": "WHITE-CIDR-RU-checked.txt",
-    "source_datetime": "2026-09-28 21:15 Moscow"
+    "source_datetime": "2026-09-28 22:41 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -69,7 +69,8 @@
           "full:localhost",
           "domain:local",
           "domain:lan",
-          "regexp:^[^.]+$"
+          "regexp:^[^.]+$",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -125,7 +126,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -145,7 +147,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -165,7 +168,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -185,7 +189,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -205,7 +210,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -225,7 +231,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -245,7 +252,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -265,7 +273,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -285,7 +294,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -305,7 +315,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -325,7 +336,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -345,7 +357,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -433,8 +446,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.78",
-            "port": 8443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
                 "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
@@ -445,21 +458,19 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "idlecore.me",
-          "fingerprint": "android",
-          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
-          "shortId": "a1b2c3d4"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "android"
         }
       }
     },
@@ -469,8 +480,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.78",
-            "port": 8443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
                 "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
@@ -481,21 +492,19 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "idlecore.me",
-          "fingerprint": "firefox",
-          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
-          "shortId": "a1b2c3d4"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -529,7 +538,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "idlecore.me",
-          "fingerprint": "safari",
+          "fingerprint": "chrome",
           "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
           "shortId": "a1b2c3d4"
         }
@@ -565,7 +574,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "idlecore.me",
-          "fingerprint": "chrome",
+          "fingerprint": "edge",
           "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
           "shortId": "a1b2c3d4"
         }
@@ -601,7 +610,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "idlecore.me",
-          "fingerprint": "ios",
+          "fingerprint": "firefox",
           "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
           "shortId": "a1b2c3d4"
         }
@@ -613,11 +622,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "185.86.145.78",
+            "port": 8443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -625,21 +634,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "edge"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "idlecore.me",
+          "fingerprint": "safari",
+          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
+          "shortId": "a1b2c3d4"
         }
       }
     },
@@ -649,11 +658,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "37.139.42.235",
+            "port": 14443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -667,18 +676,13 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "random",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -688,11 +692,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "37.139.42.235",
+            "port": 14443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -706,15 +710,13 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "chrome"
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -724,11 +726,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "37.139.42.235",
+            "port": 14443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -742,14 +744,12 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
+          "serverName": "katering.coteite.pro",
           "fingerprint": "ios"
         }
       }
@@ -760,11 +760,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "37.139.42.235",
+            "port": 14443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -778,15 +778,13 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "qq"
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "safari"
         }
       }
     },
@@ -796,11 +794,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -814,15 +812,13 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "random"
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -832,11 +828,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
                 "encryption": "none"
               }
             ]
@@ -850,18 +846,13 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "android",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "ios"
         }
       }
     },
@@ -897,10 +888,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
+          "fingerprint": "random"
         }
       }
     },
@@ -936,7 +924,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "edge",
+          "fingerprint": "android",
           "alpn": [
             "http/1.1"
           ]
@@ -975,7 +963,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "ios",
+          "fingerprint": "random",
           "alpn": [
             "http/1.1"
           ]
@@ -1014,10 +1002,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "qq",
-          "alpn": [
-            "http/1.1"
-          ]
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1053,7 +1038,190 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "safari",
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-018",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-019",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-020",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-021",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-022",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "edge",
           "alpn": [
             "http/1.1"
           ]
