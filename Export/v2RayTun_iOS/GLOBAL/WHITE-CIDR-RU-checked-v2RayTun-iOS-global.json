@@ -58,7 +58,7 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -115,7 +115,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -136,7 +136,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -157,7 +157,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -178,7 +178,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -199,7 +199,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -220,7 +220,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -241,7 +241,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -262,7 +262,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -283,7 +283,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -304,7 +304,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -325,7 +325,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -346,7 +346,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:katering.coteite.pro"
+          "full:vyvoz-musora.cc"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -413,11 +413,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "katering.coteite.pro",
-            "port": 14443,
+            "address": "vyvoz-musora.cc",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "365de9e9-ba29-4819-af2d-766f9638e3be",
                 "encryption": "none"
               }
             ]
@@ -428,16 +428,22 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+          "path": "/e8ws",
+          "headers": {
+            "Host": "vyvoz-musora.cc"
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "android"
+          "serverName": "vyvoz-musora.cc",
+          "fingerprint": "edge",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -447,11 +453,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "katering.coteite.pro",
-            "port": 14443,
+            "address": "vyvoz-musora.cc",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "365de9e9-ba29-4819-af2d-766f9638e3be",
                 "encryption": "none"
               }
             ]
@@ -462,16 +468,22 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+          "path": "/e8ws",
+          "headers": {
+            "Host": "vyvoz-musora.cc"
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "chrome"
+          "serverName": "vyvoz-musora.cc",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -481,11 +493,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.78",
-            "port": 8443,
+            "address": "vyvoz-musora.cc",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "365de9e9-ba29-4819-af2d-766f9638e3be",
                 "encryption": "none"
               }
             ]
@@ -493,21 +505,25 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/e8ws",
+          "headers": {
+            "Host": "vyvoz-musora.cc"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "idlecore.me",
-          "fingerprint": "chrome",
-          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
-          "shortId": "a1b2c3d4"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vyvoz-musora.cc",
+          "fingerprint": "ios",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -517,11 +533,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.78",
-            "port": 8443,
+            "address": "vyvoz-musora.cc",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "365de9e9-ba29-4819-af2d-766f9638e3be",
                 "encryption": "none"
               }
             ]
@@ -529,21 +545,25 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/e8ws",
+          "headers": {
+            "Host": "vyvoz-musora.cc"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "idlecore.me",
-          "fingerprint": "edge",
-          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
-          "shortId": "a1b2c3d4"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vyvoz-musora.cc",
+          "fingerprint": "qq",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -553,11 +573,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.78",
-            "port": 8443,
+            "address": "vyvoz-musora.cc",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "365de9e9-ba29-4819-af2d-766f9638e3be",
                 "encryption": "none"
               }
             ]
@@ -565,21 +585,25 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/e8ws",
+          "headers": {
+            "Host": "vyvoz-musora.cc"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "idlecore.me",
-          "fingerprint": "firefox",
-          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
-          "shortId": "a1b2c3d4"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vyvoz-musora.cc",
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -589,11 +613,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.86.145.78",
-            "port": 8443,
+            "address": "37.139.42.187",
+            "port": 8095,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "7974c820-9744-44a0-9fee-67292b70e125",
                 "encryption": "none"
               }
             ]
@@ -607,14 +631,14 @@
           "tcpKeepAliveInterval": 60
         },
         "grpcSettings": {
-          "serviceName": "",
+          "serviceName": "media.ingest.v2.ChunkUploadService",
           "multiMode": false
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "idlecore.me",
-          "fingerprint": "safari",
-          "publicKey": "Qf5kMbpi0sUGV4ZB_2wVGdi-iACSFv47quZT-z-ymEo",
+          "serverName": "pic.rutubelist.ru",
+          "fingerprint": "chrome",
+          "publicKey": "PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU",
           "shortId": "a1b2c3d4"
         }
       }
@@ -625,11 +649,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.235",
-            "port": 14443,
+            "address": "37.139.42.187",
+            "port": 8095,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "7974c820-9744-44a0-9fee-67292b70e125",
                 "encryption": "none"
               }
             ]
@@ -637,19 +661,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+        "grpcSettings": {
+          "serviceName": "media.ingest.v2.ChunkUploadService",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "chrome"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pic.rutubelist.ru",
+          "fingerprint": "firefox",
+          "publicKey": "PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU",
+          "shortId": "a1b2c3d4"
         }
       }
     },
@@ -659,11 +685,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.235",
-            "port": 14443,
+            "address": "37.139.42.187",
+            "port": 8095,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "7974c820-9744-44a0-9fee-67292b70e125",
                 "encryption": "none"
               }
             ]
@@ -671,19 +697,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+        "grpcSettings": {
+          "serviceName": "media.ingest.v2.ChunkUploadService",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "firefox"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pic.rutubelist.ru",
+          "fingerprint": "ios",
+          "publicKey": "PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU",
+          "shortId": "a1b2c3d4"
         }
       }
     },
@@ -693,11 +721,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.235",
-            "port": 14443,
+            "address": "37.139.42.187",
+            "port": 8095,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "7974c820-9744-44a0-9fee-67292b70e125",
                 "encryption": "none"
               }
             ]
@@ -705,19 +733,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+        "grpcSettings": {
+          "serviceName": "media.ingest.v2.ChunkUploadService",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "ios"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pic.rutubelist.ru",
+          "fingerprint": "qq",
+          "publicKey": "PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU",
+          "shortId": "a1b2c3d4"
         }
       }
     },
@@ -727,11 +757,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "37.139.42.235",
-            "port": 14443,
+            "address": "37.139.42.187",
+            "port": 8095,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "7974c820-9744-44a0-9fee-67292b70e125",
                 "encryption": "none"
               }
             ]
@@ -739,19 +769,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+        "grpcSettings": {
+          "serviceName": "media.ingest.v2.ChunkUploadService",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "safari"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pic.rutubelist.ru",
+          "fingerprint": "safari",
+          "publicKey": "PAP10NLpy_4J_vf1CEtDuLJtce3pLSNhHLbuuAUXqBU",
+          "shortId": "a1b2c3d4"
         }
       }
     },
@@ -761,11 +793,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "katering.coteite.pro",
-            "port": 14443,
+            "address": "37.139.42.138",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
                 "encryption": "none"
               }
             ]
@@ -776,16 +808,19 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "firefox"
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -795,11 +830,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "katering.coteite.pro",
-            "port": 14443,
+            "address": "37.139.42.138",
+            "port": 443,
             "users": [
               {
-                "id": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
                 "encryption": "none"
               }
             ]
@@ -810,15 +845,18 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/n2ws",
-          "headers": {}
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "katering.coteite.pro",
+          "serverName": "dostavitos.stroymatdv.cc",
           "fingerprint": "ios"
         }
       }
@@ -844,7 +882,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -855,7 +894,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "random"
+          "fingerprint": "safari"
         }
       }
     },
@@ -880,7 +919,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -919,7 +959,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -930,7 +971,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "random",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ]
@@ -958,7 +999,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -969,7 +1011,10 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "chrome"
+          "fingerprint": "qq",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -994,7 +1039,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -1005,7 +1051,10 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "edge"
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -1030,7 +1079,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -1041,7 +1091,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         }
       }
     },
@@ -1066,7 +1116,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -1077,7 +1128,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "ios"
+          "fingerprint": "qq"
         }
       }
     },
@@ -1102,7 +1153,8 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
           "path": "/e5ws",
@@ -1113,43 +1165,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-021",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.139.42.138",
-            "port": 443,
-            "users": [
-              {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "chrome",
+          "fingerprint": "ios",
           "alpn": [
             "http/1.1"
           ]
@@ -1157,42 +1173,22 @@
       }
     },
     {
-      "tag": "igareck-node-022",
-      "protocol": "vless",
+      "tag": "fragment",
+      "protocol": "freedom",
       "settings": {
-        "vnext": [
+        "fragment": {
+          "packets": "1-3",
+          "length": "50-100",
+          "interval": "10-20",
+          "maxSplit": "10"
+        },
+        "noises": [
           {
-            "address": "37.139.42.138",
-            "port": 443,
-            "users": [
-              {
-                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
-                "encryption": "none"
-              }
-            ]
+            "type": "rand",
+            "packet": "50-150",
+            "delay": "10-50"
           }
         ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "wsSettings": {
-          "path": "/e5ws",
-          "headers": {
-            "Host": "dostavitos.stroymatdv.cc"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "dostavitos.stroymatdv.cc",
-          "fingerprint": "edge",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
       }
     },
     {
