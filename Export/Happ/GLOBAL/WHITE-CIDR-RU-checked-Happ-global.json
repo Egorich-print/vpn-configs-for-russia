@@ -3,12 +3,12 @@
     "name": "WHITE-CIDR-RU-checked — Happ Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "9 proxies",
+      "18 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "Happ",
     "source": "WHITE-CIDR-RU-checked.txt",
-    "source_datetime": "2026-09-28 13:00 Moscow"
+    "source_datetime": "2026-09-28 14:20 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -592,11 +592,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "pl.sparxiecn.com",
-          "fingerprint": "random",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
+          "fingerprint": "android"
         }
       }
     },
@@ -632,11 +628,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "pl.sparxiecn.com",
-          "fingerprint": "safari",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
+          "fingerprint": "chrome"
         }
       }
     },
@@ -672,7 +664,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "pl.sparxiecn.com",
-          "fingerprint": "android"
+          "fingerprint": "safari"
         }
       }
     },
@@ -708,7 +700,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "pl.sparxiecn.com",
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         }
       }
     },
@@ -718,11 +710,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "entry3.sparxiecn.com",
-            "port": 28447,
+            "address": "37.139.42.138",
+            "port": 443,
             "users": [
               {
-                "id": "68d89911-b92d-46fe-9007-3645c3b285f0",
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
                 "encryption": "none"
               }
             ]
@@ -736,20 +728,365 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/lovelive",
+          "path": "/e5ws",
           "headers": {
-            "Host": "pl.sparxiecn.com"
+            "Host": "dostavitos.stroymatdv.cc"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "pl.sparxiecn.com",
-          "fingerprint": "safari"
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "firefox"
         }
       }
     },
     {
       "tag": "igareck-node-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-011",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "android",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-012",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "random",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-013",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-014",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "edge",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-015",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "ios",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-016",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "qq",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-017",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.138",
+            "port": 443,
+            "users": [
+              {
+                "id": "c16fd1ee-7581-4fe9-aac7-ef7c89a1ddad",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/e5ws",
+          "headers": {
+            "Host": "dostavitos.stroymatdv.cc"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dostavitos.stroymatdv.cc",
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-018",
       "protocol": "vmess",
       "settings": {
         "vnext": [
