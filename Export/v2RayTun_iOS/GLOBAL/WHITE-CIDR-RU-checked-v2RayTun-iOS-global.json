@@ -573,11 +573,122 @@
       "settings": {
         "vnext": [
           {
+            "address": "87.239.106.24",
+            "port": 28447,
+            "users": [
+              {
+                "id": "68d89911-b92d-46fe-9007-3645c3b285f0",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lovelive",
+          "headers": {
+            "Host": "pl.sparxiecn.com"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pl.sparxiecn.com",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "87.239.106.24",
+            "port": 28447,
+            "users": [
+              {
+                "id": "68d89911-b92d-46fe-9007-3645c3b285f0",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/lovelive",
+          "headers": {
+            "Host": "pl.sparxiecn.com"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pl.sparxiecn.com",
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-007",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "37.139.42.235",
             "port": 443,
             "users": [
               {
-                "id": "52b58d58-f533-4855-b29f-d6b156c3daa9",
+                "id": "4fbcd67a-1af6-4b82-b8f6-73d0a61c554e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/euws",
+          "headers": {
+            "Host": "katering.coteite.pro"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "android",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-008",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.139.42.235",
+            "port": 443,
+            "users": [
+              {
+                "id": "4fbcd67a-1af6-4b82-b8f6-73d0a61c554e",
                 "encryption": "none"
               }
             ]
@@ -600,45 +711,6 @@
         "tlsSettings": {
           "serverName": "katering.coteite.pro",
           "fingerprint": "edge",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-006",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.139.42.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "52b58d58-f533-4855-b29f-d6b156c3daa9",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "wsSettings": {
-          "path": "/euws",
-          "headers": {
-            "Host": "katering.coteite.pro"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "katering.coteite.pro",
-          "fingerprint": "safari",
           "alpn": [
             "http/1.1"
           ]
