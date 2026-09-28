@@ -131,9 +131,7 @@
         },
         "wsSettings": {
           "path": "/",
-          "headers": {
-            "Host": "www.pubgmobile.com"
-          }
+          "headers": {}
         }
       }
     },
@@ -143,11 +141,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.245.232.239",
-            "port": 35043,
+            "address": "172.64.80.1",
+            "port": 8443,
             "users": [
               {
-                "id": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -162,9 +160,13 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/",
-          "headers": {}
-        }
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
       }
     },
     {
@@ -173,11 +175,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.245.232.239",
-            "port": 35043,
+            "address": "172.64.80.1",
+            "port": 8443,
             "users": [
               {
-                "id": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -192,8 +194,12 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/",
+          "path": "/lMnsZUN4/",
           "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
         }
       }
     },
@@ -228,7 +234,9 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {}
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
       }
     },
     {
@@ -237,7 +245,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.80.1",
+            "address": "chatgpt.com",
             "port": 8443,
             "users": [
               {
@@ -257,12 +265,12 @@
         },
         "wsSettings": {
           "path": "/lMnsZUN4/",
-          "headers": {}
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
         },
         "security": "tls",
-        "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz"
-        }
+        "tlsSettings": {}
       }
     },
     {
@@ -271,7 +279,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.80.1",
+            "address": "chatgpt.com",
             "port": 8443,
             "users": [
               {
@@ -307,7 +315,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "172.64.80.1",
             "port": 8443,
             "users": [
               {
@@ -368,47 +376,11 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-009",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.64.80.1",
-            "port": 8443,
-            "users": [
-              {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
-          }
-        },
-        "security": "tls",
         "tlsSettings": {}
       }
     },
     {
-      "tag": "igareck-node-010",
+      "tag": "igareck-node-009",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -438,96 +410,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "v2ray1.dozapp.xyz"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-011",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "23.106.44.14",
-            "port": 443,
-            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sj6.freeguard.org",
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-012",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "23.106.44.14",
-            "port": 443,
-            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sj6.freeguard.org",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-013",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "23.106.44.14",
-            "port": 443,
-            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sj6.freeguard.org",
-          "fingerprint": "safari"
         }
       }
     },
