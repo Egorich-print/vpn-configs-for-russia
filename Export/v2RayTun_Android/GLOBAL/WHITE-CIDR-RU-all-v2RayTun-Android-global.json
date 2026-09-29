@@ -59,6 +59,7 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -116,6 +117,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -137,6 +139,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -158,6 +161,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -179,6 +183,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -200,6 +205,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -221,6 +227,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -242,6 +249,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -263,6 +271,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -284,6 +293,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -305,6 +315,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -326,6 +337,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -347,6 +359,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:br.muzon.to",
           "full:msk.frkn.org"
         ],
         "skipFallback": true,
@@ -437,32 +450,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.33.133.195",
+            "address": "46.17.248.207",
             "port": 443,
             "users": [
               {
-                "id": "4871e898-0980-402f-882f-e1983ffc851b",
-                "encryption": "none"
+                "id": "a1705606-715d-485d-b311-43538f2b11a6",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "ozon.ru",
-          "fingerprint": "chrome",
-          "publicKey": "5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ"
+          "serverName": "21.stepanofff.ru",
+          "fingerprint": "android",
+          "publicKey": "8yvZcJaBbi42WLDx4Tyj5zR1F0kYoD6K4Z92AGX_q3U",
+          "shortId": "96ef80",
+          "spiderX": "/29b5a7dbcf4167e"
         }
       }
     },
@@ -472,32 +490,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.33.133.195",
+            "address": "46.17.248.207",
             "port": 443,
             "users": [
               {
-                "id": "4871e898-0980-402f-882f-e1983ffc851b",
-                "encryption": "none"
+                "id": "a1705606-715d-485d-b311-43538f2b11a6",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "ozon.ru",
-          "fingerprint": "edge",
-          "publicKey": "5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ"
+          "serverName": "21.stepanofff.ru",
+          "fingerprint": "chrome",
+          "publicKey": "8yvZcJaBbi42WLDx4Tyj5zR1F0kYoD6K4Z92AGX_q3U",
+          "shortId": "96ef80",
+          "spiderX": "/29b5a7dbcf4167e"
         }
       }
     },
@@ -507,32 +530,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.33.133.195",
+            "address": "46.17.248.207",
             "port": 443,
             "users": [
               {
-                "id": "4871e898-0980-402f-882f-e1983ffc851b",
-                "encryption": "none"
+                "id": "a1705606-715d-485d-b311-43538f2b11a6",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "ozon.ru",
-          "fingerprint": "ios",
-          "publicKey": "5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ"
+          "serverName": "21.stepanofff.ru",
+          "fingerprint": "edge",
+          "publicKey": "8yvZcJaBbi42WLDx4Tyj5zR1F0kYoD6K4Z92AGX_q3U",
+          "shortId": "96ef80",
+          "spiderX": "/29b5a7dbcf4167e"
         }
       }
     },
@@ -542,11 +570,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.120.181.153",
+            "address": "46.17.248.207",
             "port": 443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+                "id": "a1705606-715d-485d-b311-43538f2b11a6",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -568,10 +596,11 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "eh.vk.ru",
-          "fingerprint": "android",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "shortId": "db04ce8bdb8900f1"
+          "serverName": "21.stepanofff.ru",
+          "fingerprint": "ios",
+          "publicKey": "8yvZcJaBbi42WLDx4Tyj5zR1F0kYoD6K4Z92AGX_q3U",
+          "shortId": "96ef80",
+          "spiderX": "/29b5a7dbcf4167e"
         }
       }
     },
@@ -581,11 +610,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.120.181.153",
+            "address": "46.17.248.207",
             "port": 443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+                "id": "a1705606-715d-485d-b311-43538f2b11a6",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -607,10 +636,11 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "eh.vk.ru",
-          "fingerprint": "chrome",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "shortId": "db04ce8bdb8900f1"
+          "serverName": "21.stepanofff.ru",
+          "fingerprint": "safari",
+          "publicKey": "8yvZcJaBbi42WLDx4Tyj5zR1F0kYoD6K4Z92AGX_q3U",
+          "shortId": "96ef80",
+          "spiderX": "/29b5a7dbcf4167e"
         }
       }
     },
@@ -620,36 +650,32 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.120.181.153",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "eh.vk.ru",
-          "fingerprint": "firefox",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "shortId": "db04ce8bdb8900f1"
+          "serverName": "open.spotify.com",
+          "fingerprint": "qq",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
@@ -659,36 +685,32 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.120.181.153",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "eh.vk.ru",
-          "fingerprint": "qq",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "shortId": "db04ce8bdb8900f1"
+          "serverName": "open.spotify.com",
+          "fingerprint": "chrome",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
@@ -698,11 +720,116 @@
       "settings": {
         "vnext": [
           {
-            "address": "109.120.181.153",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "edge",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-009",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.38.181.249",
+            "port": 443,
+            "users": [
+              {
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "firefox",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-010",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "84.38.181.249",
+            "port": 443,
+            "users": [
+              {
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "ios",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-011",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -724,166 +851,371 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "eh.vk.ru",
-          "fingerprint": "safari",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "shortId": "db04ce8bdb8900f1"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-009",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.33.133.195",
-            "port": 443,
-            "users": [
-              {
-                "id": "4871e898-0980-402f-882f-e1983ffc851b",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ozon.ru",
-          "fingerprint": "firefox",
-          "publicKey": "5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-010",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.33.133.195",
-            "port": 443,
-            "users": [
-              {
-                "id": "4871e898-0980-402f-882f-e1983ffc851b",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ozon.ru",
-          "fingerprint": "safari",
-          "publicKey": "5f_7knvdTuK5bek16zI3cgP5sjDAPJaeFKjd-NALfwQ"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-011",
-      "protocol": "hysteria",
-      "settings": {
-        "version": 2,
-        "address": "185.246.65.176",
-        "port": 8113
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD"
-        },
-        "tlsSettings": {
-          "serverName": "lit1.lumenvpn.tech",
-          "alpn": [
-            "h3"
-          ]
-        },
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "serverName": "www.amd.com",
+          "fingerprint": "chrome",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e",
+          "spiderX": "/"
         }
       }
     },
     {
       "tag": "igareck-node-012",
-      "protocol": "hysteria",
+      "protocol": "vless",
       "settings": {
-        "version": 2,
-        "address": "185.246.65.176",
-        "port": 8112
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
       },
       "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD"
-        },
-        "tlsSettings": {
-          "serverName": "nl2.lumenvpn.tech",
-          "alpn": [
-            "h3"
-          ]
-        },
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "firefox",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e",
+          "spiderX": "/"
         }
       }
     },
     {
       "tag": "igareck-node-013",
-      "protocol": "hysteria",
+      "protocol": "vless",
       "settings": {
-        "version": 2,
-        "address": "91.240.86.70",
-        "port": 22443
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
       },
       "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5"
-        },
-        "tlsSettings": {
-          "serverName": "hy.quattro-tech.ru",
-          "alpn": [
-            "h3"
-          ]
-        },
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "ios",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e",
+          "spiderX": "/"
         }
       }
     },
     {
       "tag": "igareck-node-014",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "qq",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-015",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "safari",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-016",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "android",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-017",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "chrome",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-018",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "edge",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-019",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "qq",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-020",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "br.muzon.to",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b947013-7551-4a8e-bc4f-470e9e987e88",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amd.com",
+          "fingerprint": "safari",
+          "publicKey": "Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc",
+          "shortId": "9b0c1d2e"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-021",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -910,7 +1242,7 @@
       }
     },
     {
-      "tag": "igareck-node-015",
+      "tag": "igareck-node-022",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
