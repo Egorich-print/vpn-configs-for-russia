@@ -111,6 +111,37 @@
       "settings": {
         "vnext": [
           {
+            "address": "31.77.8.97",
+            "port": 110,
+            "users": [
+              {
+                "id": "d2d8601b-c14b-42c6-b8ea-33889bce152a",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-002",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
             "address": "172.64.80.1",
             "port": 8443,
             "users": [
@@ -141,7 +172,7 @@
       }
     },
     {
-      "tag": "igareck-node-002",
+      "tag": "igareck-node-003",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -176,7 +207,7 @@
       }
     },
     {
-      "tag": "igareck-node-003",
+      "tag": "igareck-node-004",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -210,41 +241,6 @@
         "tlsSettings": {
           "serverName": "v2ray1.dozapp.xyz"
         }
-      }
-    },
-    {
-      "tag": "igareck-node-004",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {}
       }
     },
     {
@@ -279,9 +275,7 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz"
-        }
+        "tlsSettings": {}
       }
     },
     {
@@ -290,7 +284,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.80.1",
+            "address": "chatgpt.com",
             "port": 8443,
             "users": [
               {
@@ -353,11 +347,48 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {}
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
       }
     },
     {
       "tag": "igareck-node-008",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "igareck-node-009",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -392,72 +423,33 @@
       }
     },
     {
-      "tag": "igareck-node-009",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "188.114.97.6",
-            "port": 443,
-            "password": "kHnTqWA+02w:qkJvu_!"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/tr/bEUjQ9W2F2uBfupxE?ed=2560",
-          "headers": {
-            "Host": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
       "tag": "igareck-node-010",
       "protocol": "trojan",
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.6",
+            "address": "23.106.44.14",
             "port": 443,
-            "password": "kHnTqWA+02w:qkJvu_!"
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/tr/bEUjQ9W2F2uBfupxE?ed=2560",
-          "headers": {
-            "Host": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev",
-          "fingerprint": "firefox",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "sj6.freeguard.org",
+          "fingerprint": "android"
         }
       }
     },
@@ -467,32 +459,28 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.6",
+            "address": "23.106.44.14",
             "port": 443,
-            "password": "kHnTqWA+02w:qkJvu_!"
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/tr/bEUjQ9W2F2uBfupxE?ed=2560",
-          "headers": {
-            "Host": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev",
-          "fingerprint": "ios",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "sj6.freeguard.org",
+          "fingerprint": "qq"
         }
       }
     },
@@ -502,32 +490,28 @@
       "settings": {
         "servers": [
           {
-            "address": "188.114.97.6",
+            "address": "23.106.44.14",
             "port": 443,
-            "password": "kHnTqWA+02w:qkJvu_!"
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/tr/bEUjQ9W2F2uBfupxE?ed=2560",
-          "headers": {
-            "Host": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "8io8nc2-u48ab2sn3ne9vrv76z8.last-zenitsu.workers.dev",
-          "fingerprint": "unsafe",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "sj6.freeguard.org",
+          "fingerprint": "safari"
         }
       }
     },
