@@ -2,8 +2,8 @@
 # Igareck Mihomo Subscription
 # Источник/Source: BLACK_SS+All_RUS.txt
 # 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
-# Количество/Quantity: 4
-# Date/Time: 2026-09-29 / 17:10 (Moscow)
+# Количество/Quantity: 3
+# Date/Time: 2026-09-29 / 18:04 (Moscow)
 #
 # Режим / Mode:
 # - Автоматический Выбор лучшего прокси / Igareck Auto Select;
@@ -154,7 +154,18 @@ sniffer:
       ports: [443, 8443]
 
 proxies:
-- name: Igareck Node 001 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+- name: Igareck Node 001 | 🇺🇸 United States | 🌐 | [BL]
+  type: ss
+  server: "\x31\x33\x34\x2e\x31\x39\x35\x2e\x31\x30\x31\x2e\x31\x31\x38"
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
+- name: Igareck Node 002 | 🇸🇬 Singapore， Singapore | [BL]
   type: hysteria2
   server: "\x76\x70\x6e\x2d\x68\x6b\x2d\x30\x30\x34\x2e\x66\x61\x73\x74\x65\x72\x76\x70\x6e\x2e\x77\x6f\x72\x6c\x64"
   port: 443
@@ -164,29 +175,9 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 002 | 🇺🇸 United States， Seattle | [BL]
-  type: hysteria2
-  server: "\x75\x73\x33\x2e\x78\x69\x61\x6f\x6c\x69\x79\x75\x2e\x63\x79\x6f\x75"
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  udp: true
-  sni: us3.xiaoliyu.cyou
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 003 | 🇺🇸 United States， Seattle | [BL]
-  type: hysteria2
-  server: "\x75\x73\x33\x2e\x78\x69\x61\x6f\x6c\x69\x79\x75\x2e\x63\x79\x6f\x75"
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  udp: true
-  sni: us3.xiaoliyu.cyou
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 004 | 🇺🇸 United States， St Louis (Downtown) | [BL]
+- name: Igareck Node 003 | 🇺🇸 United States， St Louis (Downtown) | [BL]
   type: vmess
-  server: "\x31\x37\x32\x2e\x36\x34\x2e\x38\x30\x2e\x31"
+  server: "\x63\x68\x61\x74\x67\x70\x74\x2e\x63\x6f\x6d"
   port: 8443
   uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
   alterId: 0
@@ -197,6 +188,8 @@ proxies:
   network: ws
   ws-opts:
     path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 
 proxy-groups:
   - name: "Igareck Auto Select (Автоподключение)"
