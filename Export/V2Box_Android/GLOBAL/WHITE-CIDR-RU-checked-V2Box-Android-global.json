@@ -58,7 +58,8 @@
           "full:localhost",
           "domain:local",
           "domain:lan",
-          "regexp:^[^.]+$"
+          "regexp:^[^.]+$",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -114,7 +115,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -134,7 +136,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -154,7 +157,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -174,7 +178,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -194,7 +199,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -214,7 +220,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -234,7 +241,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -254,7 +262,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -274,7 +283,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -294,7 +304,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -314,7 +325,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -334,7 +346,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:katering.coteite.pro"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -424,35 +437,32 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.201.169.241",
-            "port": 443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
-                "id": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "0f087cba-d780-4962-a0cd-c74ad6060523",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api-maps.yandex.ru",
-          "fingerprint": "firefox",
-          "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "android"
         }
       }
     },
@@ -462,36 +472,32 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.201.169.241",
-            "port": 443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
-                "id": "Fluffy_VPN-zKZUa4Ie",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "0f087cba-d780-4962-a0cd-c74ad6060523",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api-maps.yandex.ru",
-          "fingerprint": "firefox",
-          "publicKey": "xsKg-Qi8sZNRRaNf6svIUwSw6iMdOTc6Cl82inZFM1Y",
-          "spiderX": "/"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -501,11 +507,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.241.195.218",
-            "port": 443,
+            "address": "katering.coteite.pro",
+            "port": 14443,
             "users": [
               {
-                "id": "f9f5a72c-c299-4d98-b2ad-d04aba3c7b1f",
+                "id": "0f087cba-d780-4962-a0cd-c74ad6060523",
                 "encryption": "none"
               }
             ]
@@ -513,22 +519,90 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "vlgrpc",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "cdn0.s3-rus.ru",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2"
-          ]
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "katering.coteite.pro",
+            "port": 14443,
+            "users": [
+              {
+                "id": "0f087cba-d780-4962-a0cd-c74ad6060523",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "katering.coteite.pro",
+            "port": 14443,
+            "users": [
+              {
+                "id": "0f087cba-d780-4962-a0cd-c74ad6060523",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/n2ws",
+          "headers": {}
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "katering.coteite.pro",
+          "fingerprint": "safari"
         }
       }
     },
