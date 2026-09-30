@@ -3,13 +3,13 @@
 # Источник/Source: WHITE-CIDR-RU-checked.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Только VK, Yandex, CDNvideo, Beeline
 # Количество/Quantity: 5
-# Date/Time: 2026-09-30 / 10:20 (Moscow)
+# Date/Time: 2026-09-30 / 11:37 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
 
 proxies:
-- name: Igareck Node 001 | 🇳🇱 The Netherlands | 🌐 | [*CIDR] VK
+- name: Igareck Node 001 | 🇳🇱 The Netherlands | 🌐 [*CIDR] VK
   type: vless
   server: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
   port: 14443
@@ -21,7 +21,7 @@ proxies:
   network: ws
   ws-opts:
     path: /n2ws
-- name: Igareck Node 002 | 🇳🇱 The Netherlands | 🌐 | [*CIDR] VK
+- name: Igareck Node 002 | 🇳🇱 The Netherlands | 🌐 [*CIDR] VK
   type: vless
   server: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
   port: 14443
@@ -33,7 +33,7 @@ proxies:
   network: ws
   ws-opts:
     path: /n2ws
-- name: Igareck Node 003 | 🇳🇱 The Netherlands | 🌐 | [*CIDR] VK
+- name: Igareck Node 003 | 🇳🇱 The Netherlands | 🌐 [*CIDR] VK
   type: vless
   server: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
   port: 14443
@@ -41,7 +41,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
-  client-fingerprint: edge
+  client-fingerprint: ios
   network: ws
   ws-opts:
     path: /n2ws
@@ -53,7 +53,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x6b\x61\x74\x65\x72\x69\x6e\x67\x2e\x63\x6f\x74\x65\x69\x74\x65\x2e\x70\x72\x6f"
-  client-fingerprint: ios
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /n2ws
