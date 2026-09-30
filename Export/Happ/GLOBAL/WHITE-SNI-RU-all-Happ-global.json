@@ -3,12 +3,12 @@
     "name": "WHITE-SNI-RU-all — Happ Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "2 proxies",
+      "4 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "Happ",
     "source": "WHITE-SNI-RU-all.txt",
-    "source_datetime": "2026-10-01 01:01 Moscow"
+    "source_datetime": "2026-10-01 02:13 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -495,6 +495,84 @@
           "fingerprint": "firefox",
           "publicKey": "Kjly4cLUp4_P04_3lM1l_NJu8-vFcING7tBNtAXk7Go",
           "shortId": "db09859d9be0fa2b"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "171.22.129.158",
+            "port": 443,
+            "users": [
+              {
+                "id": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mail.ru",
+          "fingerprint": "qq",
+          "publicKey": "kk7OIl7fsEKSuCTWKb8pSgWQbZuJurc4qGYMBYSd5hA",
+          "shortId": "3bdedfbb43fe4637"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "171.22.129.158",
+            "port": 443,
+            "users": [
+              {
+                "id": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mail.ru",
+          "fingerprint": "firefox",
+          "publicKey": "kk7OIl7fsEKSuCTWKb8pSgWQbZuJurc4qGYMBYSd5hA",
+          "shortId": "3bdedfbb43fe4637"
         }
       }
     },
