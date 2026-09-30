@@ -3,7 +3,7 @@
 # Источник/Source: BLACK_SS+All_RUS.txt
 # 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
 # Количество/Quantity: 14
-# Date/Time: 2026-09-30 / 16:44 (Moscow)
+# Date/Time: 2026-09-30 / 17:35 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
@@ -31,27 +31,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: (Telegram🇨🇳 @VPNine1)9f6b1e7:141612
-- name: Igareck Node 003 | 🇩🇪 Germany， Frankfurt am Main | [BL]
-  type: hysteria2
-  server: "\x36\x34\x2e\x31\x38\x38\x2e\x39\x38\x2e\x31\x37\x31"
-  port: 443
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  udp: true
-  sni: germany3.h2corp.local
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 004 | 🇩🇪 Germany， Frankfurt am Main | [BL]
-  type: hysteria2
-  server: "\x64\x65\x2e\x31\x2e\x32\x33\x2e\x68\x32\x63\x6f\x72\x70\x2e\x6f\x72\x67"
-  port: 443
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  udp: true
-  sni: germany3.h2corp.local
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 005 | 🇯🇵 Japan， Shibuya City | 🌐 | [BL]
+- name: Igareck Node 003 | 🇯🇵 Japan， Shibuya City | 🌐 | [BL]
   type: hysteria2
   server: "\x72\x62\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
   port: 2060
@@ -61,7 +41,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 006 | 🇯🇵 Japan， Shibuya City | 🌐 | [BL]
+- name: Igareck Node 004 | 🇯🇵 Japan， Shibuya City | 🌐 | [BL]
   type: hysteria2
   server: "\x72\x62\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
   port: 2060
@@ -71,7 +51,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 007 | 🇸🇬 Singapore， Singapore | [BL]
+- name: Igareck Node 005 | 🇸🇬 Singapore， Singapore | [BL]
   type: hysteria2
   server: "\x76\x70\x6e\x2d\x68\x6b\x2d\x30\x30\x34\x2e\x66\x61\x73\x74\x65\x72\x76\x70\x6e\x2e\x77\x6f\x72\x6c\x64"
   port: 443
@@ -81,7 +61,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 008 | 🇪🇸 Spain， Madrid | 🌐 | [BL]
+- name: Igareck Node 006 | 🇪🇸 Spain， Madrid | 🌐 | [BL]
   type: hysteria2
   server: "\x78\x62\x79\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
   port: 2060
@@ -91,7 +71,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 009 | 🇺🇸 United States， Seattle | [BL]
+- name: Igareck Node 007 | 🇺🇸 United States， Seattle | [BL]
   type: hysteria2
   server: "\x6d\x67\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
   port: 2060
@@ -101,20 +81,48 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 010 | 🇺🇸 United States， Phoenix | [BL]
+- name: Igareck Node 008 | 🇺🇸 United States， St Louis (Downtown) | [BL]
   type: vmess
-  server: "\x31\x32\x39\x2e\x31\x34\x36\x2e\x37\x37\x2e\x32\x34\x38"
-  port: 39495
-  uuid: "\x66\x38\x33\x36\x63\x37\x33\x36\x2d\x38\x37\x66\x63\x2d\x34\x66\x64\x65\x2d\x61\x61\x62\x63\x2d\x30\x30\x38\x35\x37\x65\x63\x64\x66\x66\x33\x65"
+  server: "\x31\x37\x32\x2e\x36\x34\x2e\x38\x30\x2e\x31"
+  port: 8443
+  uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
   alterId: 0
   cipher: auto
   udp: true
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  tls: true
+  servername: "\x76\x32\x72\x61\x79\x31\x2e\x64\x6f\x7a\x61\x70\x70\x2e\x78\x79\x7a"
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: /lMnsZUN4/
+- name: Igareck Node 009 | 🇺🇸 United States， St Louis (Downtown) | [BL]
+  type: vmess
+  server: "\x31\x37\x32\x2e\x36\x34\x2e\x38\x30\x2e\x31"
+  port: 8443
+  uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: "\x76\x32\x72\x61\x79\x31\x2e\x64\x6f\x7a\x61\x70\x70\x2e\x78\x79\x7a"
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: Igareck Node 010 | 🇺🇸 United States， St Louis (Downtown) | [BL]
+  type: vmess
+  server: "\x31\x37\x32\x2e\x36\x34\x2e\x38\x30\x2e\x31"
+  port: 8443
+  uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 - name: Igareck Node 011 | 🇳🇱 The Netherlands， Amsterdam | 🌐 | [BL]
   type: trojan
   server: "\x31\x39\x39\x2e\x31\x30\x37\x2e\x31\x36\x34\x2e\x31\x30\x35"
