@@ -111,11 +111,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yg1.ygkkk.dpdns.org",
+            "address": "nycqg19zkwacpm1b.v.3dns.vip",
             "port": 443,
             "users": [
               {
-                "id": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -131,9 +131,9 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
+          "path": "/ws-vmess",
           "headers": {
-            "Host": "jmp1.907737.xyz"
+            "Host": "NYcQg19zkwaCPM1B.v.3dns.vip"
           }
         },
         "security": "tls",
@@ -183,11 +183,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "36.139.117.41",
-            "port": 50011,
+            "address": "cu.877774.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "9195e0f1-f466-4e69-838f-a95519b5d45e",
+                "id": "f3244e28-157b-49e9-9730-89832f89ebcc",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -196,15 +196,21 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/vmess-argo",
+          "headers": {
+            "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
           }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "balanced-minds-carrier-demanding.trycloudflare.com"
         }
       }
     },
@@ -318,11 +324,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hi.northcluster.info",
-            "port": 52300,
+            "address": "172.64.80.1",
+            "port": 8443,
             "users": [
               {
-                "id": "6e571484-4166-4699-8f58-b34a1823691f",
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -334,13 +340,18 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/video",
+          "path": "/lMnsZUN4/",
           "headers": {
-            "Host": "hi.northcluster.info"
+            "Host": "v2ray1.dozapp.xyz"
           }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
         }
       }
     },
