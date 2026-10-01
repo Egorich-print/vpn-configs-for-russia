@@ -111,11 +111,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3h-kazakhstan1.09vpn.com",
-            "port": 80,
+            "address": "31.77.8.97",
+            "port": 110,
             "users": [
               {
-                "id": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+                "id": "d2d8601b-c14b-42c6-b8ea-33889bce152a",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -124,15 +124,14 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/vmess/",
-          "headers": {
-            "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         }
       }
@@ -143,11 +142,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.107.234.57",
-            "port": 80,
+            "address": "nycqg19zkwacpm1b.v.3dns.vip",
+            "port": 443,
             "users": [
               {
-                "id": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+                "id": "f23bb427c1f94373876c2f43e9f790f3",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -159,14 +158,17 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/vmess/",
+          "path": "/ws-vmess",
           "headers": {
-            "Host": "google.com"
+            "Host": "NYcQg19zkwaCPM1B.v.3dns.vip"
           }
-        }
+        },
+        "security": "tls",
+        "tlsSettings": {}
       }
     },
     {
@@ -232,16 +234,13 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/vmess-argo?ed=2560",
+          "path": "/vmess-argo",
           "headers": {
             "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
           }
         },
         "security": "tls",
-        "tlsSettings": {
-          "serverName": "balanced-minds-carrier-demanding.trycloudflare.com",
-          "fingerprint": "firefox"
-        }
+        "tlsSettings": {}
       }
     },
     {
@@ -250,11 +249,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3h-kazakhstan1.09vpn.com",
-            "port": 80,
+            "address": "36.139.117.41",
+            "port": 50011,
             "users": [
               {
-                "id": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+                "id": "9195e0f1-f466-4e69-838f-a95519b5d45e",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -263,14 +262,15 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/vmess/",
-          "headers": {}
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         }
       }
     },
@@ -280,11 +280,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3h-kazakhstan1.09vpn.com",
-            "port": 80,
+            "address": "hi.northcluster.info",
+            "port": 52300,
             "users": [
               {
-                "id": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+                "id": "6e571484-4166-4699-8f58-b34a1823691f",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -299,9 +299,9 @@
           "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/vmess/",
+          "path": "/video",
           "headers": {
-            "Host": "3h-kazakhstan1.09vpn.com"
+            "Host": "hi.northcluster.info"
           }
         }
       }
@@ -312,11 +312,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.236.69.39",
-            "port": 24187,
+            "address": "172.64.80.1",
+            "port": 8443,
             "users": [
               {
-                "id": "12a8ee36-5936-4449-90bd-b5eac6db4c1d",
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -328,109 +328,21 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/",
-          "headers": {}
-        }
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
       }
     },
     {
       "tag": "igareck-node-008",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "th1.zestapp778.com",
-            "port": 443,
-            "password": "Trojan@82164024"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "th1.zestapp778.com",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-009",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "th1.zestapp778.com",
-            "port": 443,
-            "password": "Trojan@82164024"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "th1.zestapp778.com",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-010",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "th1.zestapp778.com",
-            "port": 443,
-            "password": "Trojan@82164024"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "th1.zestapp778.com",
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-011",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -462,7 +374,7 @@
       }
     },
     {
-      "tag": "igareck-node-012",
+      "tag": "igareck-node-009",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -494,7 +406,39 @@
       }
     },
     {
-      "tag": "igareck-node-013",
+      "tag": "igareck-node-010",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "199.107.164.105",
+            "port": 443,
+            "password": "8GXLP3dEzm7T8wP5Jx0Ufg"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "quictest.burncommunity.ru"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "quictest.burncommunity.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-011",
       "protocol": "trojan",
       "settings": {
         "servers": [
