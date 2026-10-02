@@ -2,14 +2,62 @@
 # Igareck Mihomo Subscription
 # Источник/Source: WHITE-CIDR-RU-all.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | CIDR | Полная • Full
-# Количество/Quantity: 56
-# Date/Time: 2026-10-02 / 16:12 (Moscow)
+# Количество/Quantity: 65
+# Date/Time: 2026-10-02 / 17:34 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
 
 proxies:
-- name: Igareck Node 001 | 🇦🇹 Austria [*CIDR]
+- name: Igareck Node 001 | 🇦🇲 Armenia | [*CIDR] VK
+  type: vless
+  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x32\x35"
+  port: 7448
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: edge
+  reality-opts:
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+  network: tcp
+- name: Igareck Node 002 | 🇦🇲 Armenia | [*CIDR] VK
+  type: vless
+  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x32\x35"
+  port: 7448
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+  network: tcp
+- name: Igareck Node 003 | 🇦🇲 Armenia | [*CIDR] VK
+  type: vless
+  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x32\x35"
+  port: 7448
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: ios
+  reality-opts:
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+  network: tcp
+- name: Igareck Node 004 | 🇦🇲 Armenia | [*CIDR] VK
+  type: vless
+  server: "\x33\x37\x2e\x31\x33\x39\x2e\x34\x32\x2e\x32\x32\x35"
+  port: 7448
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: qq
+  reality-opts:
+    public-key: V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA
+  network: tcp
+- name: Igareck Node 005 | 🇦🇹 Austria [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
   port: 9830
@@ -17,14 +65,14 @@ proxies:
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: safari
+  client-fingerprint: firefox
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: "aa"
+    short-id: "aabb"
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 002 | 🇦🇹 Austria | [*CIDR]
+- name: Igareck Node 006 | 🇦🇹 Austria [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
   port: 9830
@@ -39,7 +87,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 003 | 🇦🇹 Austria | [*CIDR]
+- name: Igareck Node 007 | 🇦🇹 Austria [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
   port: 9830
@@ -54,7 +102,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 004 | 🇦🇹 Austria | [*CIDR]
+- name: Igareck Node 008 | 🇦🇹 Austria [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
   port: 9830
@@ -69,7 +117,52 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 005 | 🇦🇹 Austria | [*CIDR]
+- name: Igareck Node 009 | 🇦🇹 Austria | [*CIDR]
+  type: vless
+  server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
+  port: 9830
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aabb"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 010 | 🇦🇹 Austria | [*CIDR]
+  type: vless
+  server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
+  port: 9830
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: ios
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aabb"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 011 | 🇦🇹 Austria | [*CIDR]
+  type: vless
+  server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
+  port: 9830
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: qq
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aabb"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 012 | 🇦🇹 Austria | [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
   port: 9830
@@ -84,183 +177,67 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 006 | 🇧🇻 Bouvet Island | [*CIDR]
+- name: Igareck Node 013 | 🇦🇹 Austria | [*CIDR]
   type: vless
-  server: "\x31\x38\x38\x2e\x36\x38\x2e\x32\x31\x38\x2e\x33\x37"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
+  server: "\x31\x37\x36\x2e\x31\x30\x39\x2e\x31\x30\x39\x2e\x31\x30\x35"
+  port: 9830
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 007 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x31\x38\x38\x2e\x36\x38\x2e\x32\x31\x38\x2e\x33\x37"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: edge
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 008 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x31\x38\x38\x2e\x36\x38\x2e\x32\x31\x38\x2e\x33\x37"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 009 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x31\x38\x38\x2e\x36\x38\x2e\x32\x31\x38\x2e\x33\x37"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: ios
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 010 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x31\x38\x38\x2e\x36\x38\x2e\x32\x31\x38\x2e\x33\x37"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: random
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 011 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x31\x38\x38\x2e\x36\x38\x2e\x32\x31\x38\x2e\x33\x37"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: safari
   reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 012 | 🇧🇻 Bouvet Island | [*CIDR]
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 014 | 🇧🇬 Bulgaria [*CIDR]
   type: vless
-  server: "\x72\x75\x6d\x75\x6c\x74\x74\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
+  server: "\x31\x38\x35\x2e\x39\x31\x2e\x35\x34\x2e\x33\x30"
+  port: 8444
+  uuid: "\x30\x66\x34\x30\x38\x31\x65\x37\x2d\x36\x31\x32\x62\x2d\x34\x32\x35\x66\x2d\x38\x64\x65\x66\x2d\x65\x65\x62\x66\x31\x34\x34\x61\x65\x64\x62\x61"
   udp: true
   tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: android
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 013 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x72\x75\x6d\x75\x6c\x74\x74\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 014 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x72\x75\x6d\x75\x6c\x74\x74\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: edge
-  reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 015 | 🇧🇻 Bouvet Island | [*CIDR]
-  type: vless
-  server: "\x72\x75\x6d\x75\x6c\x74\x74\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
-  udp: true
-  tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
+  servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
   client-fingerprint: firefox
   reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 016 | 🇧🇻 Bouvet Island | [*CIDR]
+    public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
+    short-id: "9e15546f267baa64"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-reality
+- name: Igareck Node 015 | 🇧🇬 Bulgaria [*CIDR]
   type: vless
-  server: "\x72\x75\x6d\x75\x6c\x74\x74\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  port: 8443
-  uuid: "\x64\x31\x33\x62\x61\x63\x65\x64\x2d\x39\x34\x38\x61\x2d\x34\x30\x64\x37\x2d\x62\x65\x33\x31\x2d\x37\x62\x34\x34\x66\x61\x37\x36\x38\x35\x35\x32"
+  server: "\x31\x38\x35\x2e\x39\x31\x2e\x35\x34\x2e\x33\x30"
+  port: 8444
+  uuid: "\x30\x66\x34\x30\x38\x31\x65\x37\x2d\x36\x31\x32\x62\x2d\x34\x32\x35\x66\x2d\x38\x64\x65\x66\x2d\x65\x65\x62\x66\x31\x34\x34\x61\x65\x64\x62\x61"
   udp: true
   tls: true
-  servername: "\x72\x75\x6d\x75\x6c\x74\x69\x2e\x66\x65\x64\x65\x72\x61\x6c\x2d\x75\x73\x61\x2e\x63\x6f\x6d"
-  client-fingerprint: random
+  servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
+  client-fingerprint: ios
   reality-opts:
-    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-    short-id: "6b2f4e6ac9b1d2f0"
-  network: xhttp
-  xhttp-opts:
-    path: /
-    mode: auto
-- name: Igareck Node 017 | 🇧🇬 Bulgaria [*CIDR]
+    public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
+    short-id: "9e15546f267baa64"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-reality
+- name: Igareck Node 016 | 🇧🇬 Bulgaria [*CIDR]
+  type: vless
+  server: "\x31\x38\x35\x2e\x39\x31\x2e\x35\x34\x2e\x33\x30"
+  port: 8444
+  uuid: "\x30\x66\x34\x30\x38\x31\x65\x37\x2d\x36\x31\x32\x62\x2d\x34\x32\x35\x66\x2d\x38\x64\x65\x66\x2d\x65\x65\x62\x66\x31\x34\x34\x61\x65\x64\x62\x61"
+  udp: true
+  tls: true
+  servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
+  client-fingerprint: safari
+  reality-opts:
+    public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
+    short-id: "9e15546f267baa64"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-reality
+- name: Igareck Node 017 | 🇧🇬 Bulgaria | [*CIDR]
   type: vless
   server: "\x31\x38\x35\x2e\x39\x31\x2e\x35\x32\x2e\x39\x36"
   port: 8444
@@ -268,7 +245,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
     short-id: "9e15546f267baa64"
@@ -283,7 +260,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
-  client-fingerprint: chrome
+  client-fingerprint: edge
   reality-opts:
     public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
     short-id: "9e15546f267baa64"
@@ -298,7 +275,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
-  client-fingerprint: edge
+  client-fingerprint: random
   reality-opts:
     public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
     short-id: "9e15546f267baa64"
@@ -313,7 +290,7 @@ proxies:
   udp: true
   tls: true
   servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
-  client-fingerprint: random
+  client-fingerprint: safari
   reality-opts:
     public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
     short-id: "9e15546f267baa64"
@@ -322,76 +299,76 @@ proxies:
     grpc-service-name: grpc-reality
 - name: Igareck Node 021 | 🇧🇬 Bulgaria | [*CIDR]
   type: vless
-  server: "\x31\x38\x35\x2e\x39\x31\x2e\x35\x32\x2e\x39\x36"
+  server: "\x31\x38\x35\x2e\x39\x31\x2e\x35\x34\x2e\x33\x30"
   port: 8444
   uuid: "\x30\x66\x34\x30\x38\x31\x65\x37\x2d\x36\x31\x32\x62\x2d\x34\x32\x35\x66\x2d\x38\x64\x65\x66\x2d\x65\x65\x62\x66\x31\x34\x34\x61\x65\x64\x62\x61"
   udp: true
   tls: true
   servername: "\x61\x64\x73\x2e\x78\x35\x2e\x72\x75"
-  client-fingerprint: safari
+  client-fingerprint: edge
   reality-opts:
     public-key: ITd6cmCxudmTvGcwnAzpd0VRe8jS9KJAQ1tmtVN3mCM
     short-id: "9e15546f267baa64"
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-reality
-- name: Igareck Node 022 | 🇫🇮 Finland [*CIDR]
+- name: Igareck Node 022 | 🇨🇿 Czechia | [*CIDR]
   type: vless
-  server: "\x66\x69\x31\x2e\x68\x31\x63\x6c\x6f\x75\x64\x2e\x6e\x65\x74"
-  port: 25856
-  uuid: "\x34\x35\x61\x31\x34\x34\x62\x38\x2d\x32\x61\x31\x34\x2d\x34\x32\x65\x38\x2d\x62\x63\x65\x65\x2d\x30\x37\x34\x38\x31\x65\x34\x35\x61\x38\x30\x39"
-  udp: true
-  network: ws
-  ws-opts:
-    path: /c43be483
-    headers:
-      Host: fi1.h1cloud.net
-- name: Igareck Node 023 | 🇵🇱 Poland [*CIDR]
-  type: vless
-  server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
-  port: 9892
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9891
   uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: random
+  client-fingerprint: android
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: "aabb"
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 024 | 🇵🇱 Poland | [*CIDR]
+- name: Igareck Node 023 | 🇨🇿 Czechia | [*CIDR]
   type: vless
-  server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
-  port: 9892
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9891
   uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: chrome
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: "aabb"
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 025 | 🇵🇱 Poland | [*CIDR]
+- name: Igareck Node 024 | 🇨🇿 Czechia | [*CIDR]
   type: vless
-  server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
-  port: 9892
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9891
   uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: edge
   reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: "aabb"
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 026 | 🇵🇱 Poland | [*CIDR]
+- name: Igareck Node 025 | 🇨🇿 Czechia | [*CIDR]
+  type: vless
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9891
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: ios
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 026 | 🇵🇱 Poland [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
   port: 9892
@@ -414,6 +391,51 @@ proxies:
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aabb"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 028 | 🇵🇱 Poland | [*CIDR]
+  type: vless
+  server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
+  port: 9892
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aabb"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 029 | 🇵🇱 Poland | [*CIDR]
+  type: vless
+  server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
+  port: 9892
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: random
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aabb"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 030 | 🇵🇱 Poland | [*CIDR]
+  type: vless
+  server: "\x31\x37\x36\x2e\x31\x30\x38\x2e\x32\x34\x31\x2e\x31\x32\x36"
+  port: 9892
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: safari
   reality-opts:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
@@ -421,22 +443,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 028 | 🇸🇪 Sweden | [*CIDR]
-  type: vless
-  server: "\x31\x37\x36\x2e\x31\x32\x33\x2e\x31\x36\x35\x2e\x32\x35"
-  port: 9881
-  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
-  udp: true
-  tls: true
-  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: "aabbccdd"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: Igareck Node 029 | 🇸🇪 Sweden | [*CIDR]
+- name: Igareck Node 031 | 🇸🇪 Sweden [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x32\x33\x2e\x31\x36\x35\x2e\x32\x35"
   port: 9881
@@ -451,7 +458,22 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 030 | 🇸🇪 Sweden | [*CIDR]
+- name: Igareck Node 032 | 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x35\x37"
+  port: 9872
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: ios
+  reality-opts:
+    public-key: sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 033 | 🇸🇪 Sweden | [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x32\x33\x2e\x31\x36\x35\x2e\x32\x35"
   port: 9881
@@ -459,14 +481,14 @@ proxies:
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: qq
+  client-fingerprint: android
   reality-opts:
     public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
     short-id: "aabbccdd"
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 031 | 🇸🇪 Sweden | [*CIDR]
+- name: Igareck Node 034 | 🇸🇪 Sweden | [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x32\x33\x2e\x31\x36\x35\x2e\x32\x35"
   port: 9881
@@ -474,14 +496,14 @@ proxies:
   udp: true
   tls: true
   servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
-  client-fingerprint: random
+  client-fingerprint: firefox
   reality-opts:
     public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
     short-id: "aabbccdd"
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 032 | 🇸🇪 Sweden | [*CIDR]
+- name: Igareck Node 035 | 🇸🇪 Sweden | [*CIDR]
   type: vless
   server: "\x31\x37\x36\x2e\x31\x32\x33\x2e\x31\x36\x35\x2e\x32\x35"
   port: 9881
@@ -496,166 +518,216 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: Igareck Node 033 | 🇬🇧 United Kingdom [*CIDR]
+- name: Igareck Node 036 | 🇸🇪 Sweden | [*CIDR]
   type: vless
-  server: "\x38\x34\x2e\x33\x38\x2e\x31\x38\x31\x2e\x32\x34\x39"
-  port: 443
-  uuid: "\x39\x37\x33\x37\x63\x63\x31\x36\x2d\x37\x32\x36\x36\x2d\x34\x35\x63\x65\x2d\x39\x34\x64\x39\x2d\x36\x65\x30\x35\x61\x34\x35\x65\x30\x62\x39\x63"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x35\x37"
+  port: 9872
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x6f\x70\x65\x6e\x2e\x73\x70\x6f\x74\x69\x66\x79\x2e\x63\x6f\x6d"
-  client-fingerprint: qq
-  reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: "6bc02f1c474260c3"
-  network: xhttp
-  xhttp-opts:
-    path: /
-- name: Igareck Node 034 | 🇬🇧 United Kingdom | [*CIDR]
-  type: vless
-  server: "\x38\x34\x2e\x33\x38\x2e\x31\x38\x31\x2e\x32\x34\x39"
-  port: 443
-  uuid: "\x39\x37\x33\x37\x63\x63\x31\x36\x2d\x37\x32\x36\x36\x2d\x34\x35\x63\x65\x2d\x39\x34\x64\x39\x2d\x36\x65\x30\x35\x61\x34\x35\x65\x30\x62\x39\x63"
-  udp: true
-  tls: true
-  servername: "\x6f\x70\x65\x6e\x2e\x73\x70\x6f\x74\x69\x66\x79\x2e\x63\x6f\x6d"
-  client-fingerprint: android
-  reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: "6bc02f1c474260c3"
-  network: xhttp
-  xhttp-opts:
-    path: /
-- name: Igareck Node 035 | 🇬🇧 United Kingdom | [*CIDR]
-  type: vless
-  server: "\x38\x34\x2e\x33\x38\x2e\x31\x38\x31\x2e\x32\x34\x39"
-  port: 443
-  uuid: "\x39\x37\x33\x37\x63\x63\x31\x36\x2d\x37\x32\x36\x36\x2d\x34\x35\x63\x65\x2d\x39\x34\x64\x39\x2d\x36\x65\x30\x35\x61\x34\x35\x65\x30\x62\x39\x63"
-  udp: true
-  tls: true
-  servername: "\x6f\x70\x65\x6e\x2e\x73\x70\x6f\x74\x69\x66\x79\x2e\x63\x6f\x6d"
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: chrome
   reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: "6bc02f1c474260c3"
-  network: xhttp
-  xhttp-opts:
-    path: /
-- name: Igareck Node 036 | 🇬🇧 United Kingdom | [*CIDR]
+    public-key: sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 037 | 🇸🇪 Sweden | [*CIDR]
   type: vless
-  server: "\x38\x34\x2e\x33\x38\x2e\x31\x38\x31\x2e\x32\x34\x39"
-  port: 443
-  uuid: "\x39\x37\x33\x37\x63\x63\x31\x36\x2d\x37\x32\x36\x36\x2d\x34\x35\x63\x65\x2d\x39\x34\x64\x39\x2d\x36\x65\x30\x35\x61\x34\x35\x65\x30\x62\x39\x63"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x35\x37"
+  port: 9872
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x6f\x70\x65\x6e\x2e\x73\x70\x6f\x74\x69\x66\x79\x2e\x63\x6f\x6d"
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: firefox
   reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: "6bc02f1c474260c3"
-  network: xhttp
-  xhttp-opts:
-    path: /
-- name: Igareck Node 037 | 🇬🇧 United Kingdom | [*CIDR]
+    public-key: sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 038 | 🇸🇪 Sweden | [*CIDR]
   type: vless
-  server: "\x38\x34\x2e\x33\x38\x2e\x31\x38\x31\x2e\x32\x34\x39"
-  port: 443
-  uuid: "\x39\x37\x33\x37\x63\x63\x31\x36\x2d\x37\x32\x36\x36\x2d\x34\x35\x63\x65\x2d\x39\x34\x64\x39\x2d\x36\x65\x30\x35\x61\x34\x35\x65\x30\x62\x39\x63"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x35\x37"
+  port: 9872
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x6f\x70\x65\x6e\x2e\x73\x70\x6f\x74\x69\x66\x79\x2e\x63\x6f\x6d"
-  client-fingerprint: ios
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: safari
   reality-opts:
-    public-key: pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w
-    short-id: "6bc02f1c474260c3"
-  network: xhttp
-  xhttp-opts:
-    path: /
-- name: Igareck Node 038 | 🇷🇺 Russia | 🌐 | [*CIDR]
+    public-key: sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 039 | 🇨🇭 Switzerland [*CIDR]
   type: vless
-  server: "\x39\x34\x2e\x31\x39\x38\x2e\x35\x34\x2e\x31\x33\x32"
-  port: 8443
-  uuid: "\x66\x66\x61\x63\x36\x62\x33\x63\x2d\x64\x37\x39\x63\x2d\x34\x35\x34\x33\x2d\x61\x62\x34\x61\x2d\x33\x62\x64\x33\x30\x31\x39\x65\x64\x62\x63\x31"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x72\x65\x65\x6c\x73\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 040 | 🇨🇭 Switzerland | [*CIDR]
+  type: vless
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: android
   reality-opts:
-    public-key: ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys
-    short-id: "0498897564df"
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc
-- name: Igareck Node 039 | 🇷🇺 Russia | 🌐 | [*CIDR]
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 041 | 🇨🇭 Switzerland | [*CIDR]
   type: vless
-  server: "\x39\x34\x2e\x31\x39\x38\x2e\x35\x34\x2e\x31\x33\x32"
-  port: 8443
-  uuid: "\x66\x66\x61\x63\x36\x62\x33\x63\x2d\x64\x37\x39\x63\x2d\x34\x35\x34\x33\x2d\x61\x62\x34\x61\x2d\x33\x62\x64\x33\x30\x31\x39\x65\x64\x62\x63\x31"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x72\x65\x65\x6c\x73\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
-  client-fingerprint: edge
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: chrome
   reality-opts:
-    public-key: ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys
-    short-id: "0498897564df"
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc
-- name: Igareck Node 040 | 🇷🇺 Russia | 🌐 | [*CIDR]
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 042 | 🇨🇭 Switzerland | [*CIDR]
   type: vless
-  server: "\x39\x34\x2e\x31\x39\x38\x2e\x35\x34\x2e\x31\x33\x32"
-  port: 8443
-  uuid: "\x66\x66\x61\x63\x36\x62\x33\x63\x2d\x64\x37\x39\x63\x2d\x34\x35\x34\x33\x2d\x61\x62\x34\x61\x2d\x33\x62\x64\x33\x30\x31\x39\x65\x64\x62\x63\x31"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x72\x65\x65\x6c\x73\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys
-    short-id: "0498897564df"
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: Igareck Node 041 | 🇷🇺 Russia | 🌐 | [*CIDR]
-  type: vless
-  server: "\x39\x34\x2e\x31\x39\x38\x2e\x35\x34\x2e\x31\x33\x32"
-  port: 8443
-  uuid: "\x66\x66\x61\x63\x36\x62\x33\x63\x2d\x64\x37\x39\x63\x2d\x34\x35\x34\x33\x2d\x61\x62\x34\x61\x2d\x33\x62\x64\x33\x30\x31\x39\x65\x64\x62\x63\x31"
-  udp: true
-  tls: true
-  servername: "\x72\x65\x65\x6c\x73\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
   client-fingerprint: ios
   reality-opts:
-    public-key: ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys
-    short-id: "0498897564df"
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc
-- name: Igareck Node 042 | 🇷🇺 Russia | 🌐 | [*CIDR]
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 043 | 🇨🇭 Switzerland | [*CIDR]
   type: vless
-  server: "\x39\x34\x2e\x31\x39\x38\x2e\x35\x34\x2e\x31\x33\x32"
-  port: 8443
-  uuid: "\x66\x66\x61\x63\x36\x62\x33\x63\x2d\x64\x37\x39\x63\x2d\x34\x35\x34\x33\x2d\x61\x62\x34\x61\x2d\x33\x62\x64\x33\x30\x31\x39\x65\x64\x62\x63\x31"
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
   tls: true
-  servername: "\x72\x65\x65\x6c\x73\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
-  client-fingerprint: qq
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: random
   reality-opts:
-    public-key: ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys
-    short-id: "0498897564df"
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc
-- name: Igareck Node 043 | 🇩🇪 Germany [*CIDR]
-  type: hysteria2
-  server: "\x31\x38\x38\x2e\x32\x32\x35\x2e\x31\x38\x2e\x32\x30\x38"
-  port: 9443
-  password: d0d5de17-12b8-4b0d-a2c7-b969eead58ec
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 044 | 🇨🇭 Switzerland | [*CIDR]
+  type: vless
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
   udp: true
-  sni: appstatic.ru
-  alpn:
-  - h3
-- name: Igareck Node 044 | 🇩🇪 Germany [*CIDR]
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: edge
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 045 | 🇨🇭 Switzerland | [*CIDR]
+  type: vless
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: ios
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 046 | 🇨🇭 Switzerland | [*CIDR]
+  type: vless
+  server: "\x34\x35\x2e\x31\x33\x32\x2e\x31\x37\x36\x2e\x31\x36\x31"
+  port: 9882
+  uuid: "\x35\x64\x31\x36\x61\x63\x32\x32\x2d\x36\x65\x65\x61\x2d\x34\x32\x36\x66\x2d\x62\x37\x37\x38\x2d\x36\x66\x34\x63\x32\x39\x36\x31\x66\x61\x65\x66"
+  udp: true
+  tls: true
+  servername: "\x64\x6c\x2e\x67\x6f\x6f\x67\x6c\x65\x2e\x63\x6f\x6d"
+  client-fingerprint: safari
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+    short-id: "aa"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: Igareck Node 047 | 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: "\x31\x38\x38\x2e\x32\x32\x35\x2e\x32\x35\x2e\x32\x32"
+  port: 443
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: android
+  reality-opts:
+    public-key: EGtADikSkaFxgD3pnzm2qqM299GfxMV7ZJs1_NewK30
+  network: tcp
+- name: Igareck Node 048 | 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: "\x31\x38\x38\x2e\x32\x32\x35\x2e\x32\x35\x2e\x32\x32"
+  port: 443
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EGtADikSkaFxgD3pnzm2qqM299GfxMV7ZJs1_NewK30
+  network: tcp
+- name: Igareck Node 049 | 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: "\x31\x38\x38\x2e\x32\x32\x35\x2e\x32\x35\x2e\x32\x32"
+  port: 443
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: edge
+  reality-opts:
+    public-key: EGtADikSkaFxgD3pnzm2qqM299GfxMV7ZJs1_NewK30
+  network: tcp
+- name: Igareck Node 050 | 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: "\x31\x38\x38\x2e\x32\x32\x35\x2e\x32\x35\x2e\x32\x32"
+  port: 443
+  uuid: "\x34\x36\x34\x33\x39\x37\x36\x66\x2d\x38\x35\x66\x61\x2d\x34\x30\x63\x66\x2d\x39\x65\x35\x38\x2d\x65\x61\x32\x38\x62\x35\x30\x66\x32\x35\x33\x62"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  client-fingerprint: qq
+  reality-opts:
+    public-key: EGtADikSkaFxgD3pnzm2qqM299GfxMV7ZJs1_NewK30
+  network: tcp
+- name: Igareck Node 051 | 🇩🇪 Germany [*CIDR]
   type: hysteria2
   server: "\x34\x36\x2e\x32\x35\x34\x2e\x31\x37\x2e\x32\x32\x36"
   port: 9443
@@ -664,7 +736,7 @@ proxies:
   sni: filecache.ru
   alpn:
   - h3
-- name: Igareck Node 045 | 🇱🇻 Latvia [*CIDR]
+- name: Igareck Node 052 | 🇱🇻 Latvia [*CIDR]
   type: hysteria2
   server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
   port: 24443
@@ -674,7 +746,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 046 | 🇱🇻 Latvia [*CIDR]
+- name: Igareck Node 053 | 🇱🇻 Latvia [*CIDR]
   type: hysteria2
   server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
   port: 24443
@@ -683,74 +755,75 @@ proxies:
   sni: hy.quattro-tech.ru
   alpn:
   - h3
-- name: Igareck Node 047 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: hy.quattro-tech.ru
-  alpn:
-  - h3
-- name: Igareck Node 048 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: 91.240.86.70
-  alpn:
-  - h3
   skip-cert-verify: true
-- name: Igareck Node 049 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: 91.240.86.70
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 050 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: 91.240.86.70
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 051 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: hy.quattro-tech.ru
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 052 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: itsallproxy.quattro-tech.ru
-  alpn:
-  - h3
-- name: Igareck Node 053 | 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
-  port: 22443
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  udp: true
-  sni: itsallproxy.quattro-tech.ru
-  alpn:
-  - h3
 - name: Igareck Node 054 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: 91.240.86.70
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 055 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: 91.240.86.70
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 056 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: hy.quattro-tech.ru
+  alpn:
+  - h3
+- name: Igareck Node 057 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: 91.240.86.70
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 058 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: hy.quattro-tech.ru
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 059 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: itsallproxy.quattro-tech.ru
+  alpn:
+  - h3
+- name: Igareck Node 060 | 🇷🇺 Russia [*CIDR]
+  type: hysteria2
+  server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
+  port: 22443
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  udp: true
+  sni: itsallproxy.quattro-tech.ru
+  alpn:
+  - h3
+- name: Igareck Node 061 | 🇷🇺 Russia [*CIDR]
   type: hysteria2
   server: "\x39\x31\x2e\x32\x34\x30\x2e\x38\x36\x2e\x37\x30"
   port: 22443
@@ -760,7 +833,7 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 055 | 🇷🇺 Russia [*CIDR]
+- name: Igareck Node 062 | 🇷🇺 Russia [*CIDR]
   type: hysteria2
   server: "\x34\x35\x2e\x31\x31\x2e\x32\x37\x2e\x32\x33\x31"
   port: 8444
@@ -769,7 +842,17 @@ proxies:
   sni: ekb.th3web.com
   alpn:
   - h3
-- name: Igareck Node 056 | 🇷🇺 Russia | 🌐 [*CIDR]
+- name: Igareck Node 063 | 🇷🇺 Russia | 🌐 [*CIDR]
+  type: hysteria2
+  server: "\x65\x6c\x73\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  udp: true
+  sni: els.mangshe.xyz
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 064 | 🇷🇺 Russia | 🌐 [*CIDR]
   type: hysteria2
   server: "\x6d\x73\x6b\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
   port: 443
@@ -779,3 +862,12 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
+- name: Igareck Node 065 | 🇷🇺 Russia | 🌐 [*CIDR]
+  type: hysteria2
+  server: "\x6d\x73\x6b\x2e\x66\x72\x6b\x6e\x2e\x6f\x72\x67"
+  port: 443
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  udp: true
+  sni: msk.frkn.org
+  alpn:
+  - h3
