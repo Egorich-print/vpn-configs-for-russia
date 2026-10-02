@@ -3,12 +3,12 @@
     "name": "BLACK_SS+All_RUS — Happ Auto Select RU-DIRECT",
     "generator": "Igareck GitHub",
     "notes": [
-      "32 proxies",
+      "31 proxies",
       "Interval is 5 minutes + leastPing + routing RU-DIRECT."
     ],
     "client": "Happ",
     "source": "BLACK_SS+All_RUS.txt",
-    "source_datetime": "2026-10-02 01:54 Moscow"
+    "source_datetime": "2026-10-02 03:03 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -391,7 +391,7 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
-        "address": "3d0bb862-tm96o0-tnhquc-1j0a4.nw4.hyhuawei.com",
+        "address": "0d6ed79d-tlsio0-u4ai7k-z7a1.nw4.hyhuawei.com",
         "port": 443
       },
       "streamSettings": {
@@ -399,10 +399,10 @@
         "security": "tls",
         "hysteriaSettings": {
           "version": 2,
-          "auth": "4eedcde6-d16a-11ef-973a-f23c913c8d2b"
+          "auth": "3bd247a8-993e-11ec-a8bf-f23c91cfbbc9"
         },
         "tlsSettings": {
-          "serverName": "3d0bb862-tm96o0-tnhquc-1j0a4.nw4.hyhuawei.com",
+          "serverName": "0d6ed79d-tlsio0-u4ai7k-z7a1.nw4.hyhuawei.com",
           "alpn": [
             "h3"
           ]
@@ -418,7 +418,7 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
-        "address": "44577f17-tm96o0-tne5x4-1rfon.nw4.hyhuawei.com",
+        "address": "3d0bb862-tm96o0-tnhquc-1j0a4.nw4.hyhuawei.com",
         "port": 443
       },
       "streamSettings": {
@@ -426,10 +426,10 @@
         "security": "tls",
         "hysteriaSettings": {
           "version": 2,
-          "auth": "aed1cc24-351d-11ef-ba52-f23c9164ca5d"
+          "auth": "4eedcde6-d16a-11ef-973a-f23c913c8d2b"
         },
         "tlsSettings": {
-          "serverName": "44577f17-tm96o0-tne5x4-1rfon.nw4.hyhuawei.com",
+          "serverName": "3d0bb862-tm96o0-tnhquc-1j0a4.nw4.hyhuawei.com",
           "alpn": [
             "h3"
           ]
@@ -523,37 +523,29 @@
     },
     {
       "tag": "igareck-node-008",
-      "protocol": "vmess",
+      "protocol": "hysteria",
       "settings": {
-        "vnext": [
-          {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
+        "version": 2,
+        "address": "42fab11a-tm96o0-tnggms-6gn6.los.hyhuawei.com",
+        "port": 443
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "hysteria",
+        "security": "tls",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d"
+        },
+        "tlsSettings": {
+          "serverName": "42fab11a-tm96o0-tnggms-6gn6.los.hyhuawei.com",
+          "alpn": [
+            "h3"
+          ]
+        },
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {
-            "Host": "wwafj5lhl6bi8au9.v.3dns.vip"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {}
+          "tcpKeepAliveInterval": 60
+        }
       }
     },
     {
@@ -562,11 +554,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
+            "address": "31.77.8.97",
+            "port": 110,
             "users": [
               {
-                "id": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+                "id": "d2d8601b-c14b-42c6-b8ea-33889bce152a",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -575,134 +567,20 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {}
-        },
-        "security": "tls",
-        "tlsSettings": {}
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
       }
     },
     {
       "tag": "igareck-node-010",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {
-            "Host": "wwafj5LHl6bI8aU9.v.3dns.vip"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "wwafj5LHl6bI8aU9.v.3dns.vip",
-          "fingerprint": "random",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-011",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427c1f94373876c2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {
-            "Host": "wwafj5LHl6bI8aU9.v.3dns.vip"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "wwafj5LHl6bI8aU9.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-012",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427c1f94373876c2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {}
-        },
-        "security": "tls",
-        "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-013",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -737,7 +615,7 @@
       }
     },
     {
-      "tag": "igareck-node-014",
+      "tag": "igareck-node-011",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -774,7 +652,7 @@
       }
     },
     {
-      "tag": "igareck-node-015",
+      "tag": "igareck-node-012",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -809,7 +687,7 @@
       }
     },
     {
-      "tag": "igareck-node-016",
+      "tag": "igareck-node-013",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -847,7 +725,7 @@
       }
     },
     {
-      "tag": "igareck-node-017",
+      "tag": "igareck-node-014",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -884,7 +762,7 @@
       }
     },
     {
-      "tag": "igareck-node-018",
+      "tag": "igareck-node-015",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -914,16 +792,16 @@
       }
     },
     {
-      "tag": "igareck-node-019",
+      "tag": "igareck-node-016",
       "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
+            "address": "156.245.232.239",
+            "port": 35043,
             "users": [
               {
-                "id": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+                "id": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -935,91 +813,18 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {}
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "wwafj5lhl6bi8au9.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-020",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427c1f94373876c2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
+          "path": "/",
           "headers": {
-            "Host": "wwafj5LHl6bI8aU9.v.3dns.vip"
+            "Host": "156.245.232.239"
           }
-        },
-        "security": "tls",
-        "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-021",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "wwafj5lhl6bi8au9.v.3dns.vip",
-            "port": 443,
-            "users": [
-              {
-                "id": "f23bb427c1f94373876c2f43e9f790f3",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/ws-vmess",
-          "headers": {}
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "wwafj5lhl6bi8au9.v.3dns.vip"
         }
       }
     },
     {
-      "tag": "igareck-node-022",
+      "tag": "igareck-node-017",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -1051,39 +856,7 @@
       }
     },
     {
-      "tag": "igareck-node-023",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "hi.northcluster.info",
-            "port": 52300,
-            "users": [
-              {
-                "id": "6e571484-4166-4699-8f58-b34a1823691f",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "wsSettings": {
-          "path": "/video",
-          "headers": {
-            "Host": "hi.northcluster.info"
-          }
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-024",
+      "tag": "igareck-node-018",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -1113,7 +886,7 @@
       }
     },
     {
-      "tag": "igareck-node-025",
+      "tag": "igareck-node-019",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -1145,7 +918,39 @@
       }
     },
     {
-      "tag": "igareck-node-026",
+      "tag": "igareck-node-020",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hi.northcluster.info",
+            "port": 52300,
+            "users": [
+              {
+                "id": "6e571484-4166-4699-8f58-b34a1823691f",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "wsSettings": {
+          "path": "/video",
+          "headers": {
+            "Host": "hi.northcluster.info"
+          }
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-021",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -1175,7 +980,7 @@
       }
     },
     {
-      "tag": "igareck-node-027",
+      "tag": "igareck-node-022",
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -1210,12 +1015,193 @@
       }
     },
     {
-      "tag": "igareck-node-028",
+      "tag": "igareck-node-023",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-024",
       "protocol": "vmess",
       "settings": {
         "vnext": [
           {
             "address": "chatgpt.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "igareck-node-025",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "chatgpt.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-026",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-027",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "igareck-node-028",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.80.1",
             "port": 8443,
             "users": [
               {
@@ -1271,9 +1257,7 @@
         },
         "wsSettings": {
           "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
-          }
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
@@ -1283,108 +1267,63 @@
     },
     {
       "tag": "igareck-node-030",
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.64.80.1",
-            "port": 8443,
-            "users": [
-              {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
+            "address": "23.106.44.14",
+            "port": 443,
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz"
+          "serverName": "sj6.freeguard.org",
+          "fingerprint": "qq"
         }
       }
     },
     {
       "tag": "igareck-node-031",
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.64.80.1",
-            "port": 8443,
-            "users": [
-              {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
+            "address": "23.106.44.14",
+            "port": 443,
+            "password": "600421cf-11d7-429f-a65b-c30397f1bc03"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
-        },
-        "security": "tls",
-        "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-032",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz"
+          "serverName": "sj6.freeguard.org",
+          "fingerprint": "safari"
         }
       }
     },
