@@ -3,12 +3,12 @@
     "name": "WHITE-SNI-RU-all — Happ Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "4 proxies",
+      "5 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "Happ",
     "source": "WHITE-SNI-RU-all.txt",
-    "source_datetime": "2026-10-02 03:45 Moscow"
+    "source_datetime": "2026-10-02 05:07 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -531,6 +531,45 @@
     },
     {
       "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "144.31.150.185",
+            "port": 443,
+            "users": [
+              {
+                "id": "49c8e76e-7e52-426a-8669-51d93c7a6d12",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "start.ru",
+          "fingerprint": "firefox",
+          "publicKey": "Z1_596gzjw7TiPAhowugetKeotIJzLGHA41Fu5Re3WE",
+          "shortId": "410a04029b24"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
       "protocol": "vless",
       "settings": {
         "vnext": [
