@@ -424,32 +424,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "150.241.101.41",
-            "port": 8448,
+            "address": "198.55.102.59",
+            "port": 4443,
             "users": [
               {
-                "id": "e147ea33-7a27-4073-b33c-dfb91c5c7063",
-                "encryption": "none"
+                "id": "7f86f371-5a85-48be-babc-7af1ae7ffb75",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/assets/v2"
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api-maps.yandex.ru",
+          "serverName": "vk.com",
           "fingerprint": "chrome",
-          "publicKey": "5a7gJ2ukZ5NPECAks1GHvsg-lVDXVp0W6mCHQ00_cVw",
-          "shortId": "e02b44b0419d931c"
+          "publicKey": "9gYnZLxZAPxIKzu9e-cOLBpbCn9p9og9gBodOCh5HB8",
+          "shortId": "ce6767c3f1"
         }
       }
     },
@@ -459,33 +463,134 @@
       "settings": {
         "vnext": [
           {
-            "address": "150.241.101.41",
-            "port": 8448,
+            "address": "198.55.102.59",
+            "port": 4443,
             "users": [
               {
-                "id": "e147ea33-7a27-4073-b33c-dfb91c5c7063",
-                "encryption": "none"
+                "id": "7f86f371-5a85-48be-babc-7af1ae7ffb75",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/assets/v2"
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api-maps.yandex.ru",
-          "fingerprint": "firefox",
-          "publicKey": "5a7gJ2ukZ5NPECAks1GHvsg-lVDXVp0W6mCHQ00_cVw",
-          "shortId": "e02b44b0419d931c"
+          "serverName": "vk.com",
+          "fingerprint": "edge",
+          "publicKey": "9gYnZLxZAPxIKzu9e-cOLBpbCn9p9og9gBodOCh5HB8",
+          "shortId": "ce6767c3f1"
         }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "198.55.102.59",
+            "port": 4443,
+            "users": [
+              {
+                "id": "7f86f371-5a85-48be-babc-7af1ae7ffb75",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "vk.com",
+          "fingerprint": "firefox",
+          "publicKey": "9gYnZLxZAPxIKzu9e-cOLBpbCn9p9og9gBodOCh5HB8",
+          "shortId": "ce6767c3f1"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "198.55.102.59",
+            "port": 4443,
+            "users": [
+              {
+                "id": "7f86f371-5a85-48be-babc-7af1ae7ffb75",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "vk.com",
+          "fingerprint": "qq",
+          "publicKey": "9gYnZLxZAPxIKzu9e-cOLBpbCn9p9og9gBodOCh5HB8",
+          "shortId": "ce6767c3f1"
+        }
+      }
+    },
+    {
+      "tag": "fragment",
+      "protocol": "freedom",
+      "settings": {
+        "fragment": {
+          "packets": "1-3",
+          "length": "50-100",
+          "interval": "10-20",
+          "maxSplit": "10"
+        },
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "50-150",
+            "delay": "10-50"
+          }
+        ]
       }
     },
     {
