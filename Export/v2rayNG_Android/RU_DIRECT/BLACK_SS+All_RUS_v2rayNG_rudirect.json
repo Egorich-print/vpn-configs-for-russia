@@ -3,12 +3,12 @@
     "name": "BLACK_SS+All_RUS — v2rayNG Auto Select RU-DIRECT",
     "generator": "Igareck GitHub",
     "notes": [
-      "4 proxies",
+      "1 proxies",
       "Interval is 5 minutes + leastPing + routing RU-DIRECT."
     ],
     "client": "v2rayNG",
     "source": "BLACK_SS+All_RUS.txt",
-    "source_datetime": "2026-10-02 14:55 Moscow"
+    "source_datetime": "2026-10-02 15:54 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -344,18 +344,18 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
-        "address": "64.188.119.177",
-        "port": 28015
+        "address": "194.58.42.100",
+        "port": 8444
       },
       "streamSettings": {
         "network": "hysteria",
         "security": "tls",
         "hysteriaSettings": {
           "version": 2,
-          "auth": "e19b5aa3-16c9-435a-8bc9-76f2f6ddff43"
+          "auth": "7599d30f-5507-43b1-ba9d-35f1cf483ba6"
         },
         "tlsSettings": {
-          "serverName": "api-test-udp-trf.kaneki.cfd",
+          "serverName": "kz.th3web.com",
           "alpn": [
             "h3"
           ]
@@ -364,122 +364,6 @@
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         }
-      }
-    },
-    {
-      "tag": "igareck-node-002",
-      "protocol": "hysteria",
-      "settings": {
-        "version": 2,
-        "address": "222.167.245.240",
-        "port": 28015
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "e19b5aa3-16c9-435a-8bc9-76f2f6ddff43"
-        },
-        "tlsSettings": {
-          "serverName": "api-test-udp-traffic.kaneki.cfd",
-          "alpn": [
-            "h3"
-          ]
-        },
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        }
-      }
-    },
-    {
-      "tag": "igareck-node-003",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cu.877774.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "f3244e28-157b-49e9-9730-89832f89ebcc",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/vmess-argo",
-          "headers": {
-            "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-004",
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.64.80.1",
-            "port": 8443,
-            "users": [
-              {
-                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
-                "alterId": 0,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/lMnsZUN4/",
-          "headers": {}
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "v2ray1.dozapp.xyz"
-        }
-      }
-    },
-    {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "packets": "1-3",
-          "length": "50-100",
-          "interval": "10-20",
-          "maxSplit": "10"
-        },
-        "noises": [
-          {
-            "type": "rand",
-            "packet": "50-150",
-            "delay": "10-50"
-          }
-        ]
       }
     },
     {
