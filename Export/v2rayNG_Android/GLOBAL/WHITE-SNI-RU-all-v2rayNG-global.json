@@ -8,7 +8,7 @@
     ],
     "client": "v2rayNG",
     "source": "WHITE-SNI-RU-all.txt",
-    "source_datetime": "2026-10-03 00:35 Moscow"
+    "source_datetime": "2026-10-03 02:01 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -578,7 +578,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "vk.com",
-          "fingerprint": "android",
+          "fingerprint": "firefox",
           "publicKey": "mzrVbIsEggpJfXR8M7yxki2vgv3sXWQdy1bGhXqatUY",
           "shortId": "79651ae525860543",
           "spiderX": "/"
@@ -628,11 +628,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lbeiggdz.smart-cats.ru",
+            "address": "135.136.178.36",
             "port": 443,
             "users": [
               {
-                "id": "8325bd97-b77c-4917-acaa-2446e9e8cc03",
+                "id": "88c5cf5c-2910-4e57-91ff-6dd1ad6ecc44",
                 "encryption": "none"
               }
             ]
@@ -640,22 +640,28 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "haknewhpjmv",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/xvru",
+          "host": "ya.ru",
+          "mode": "stream-one",
+          "extra": {
+            "noGRPCHeader": false,
+            "scMaxEachPostBytes": 1000000,
+            "xPaddingBytes": "100-1000",
+            "scMinPostsIntervalMs": 30
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "vk.com",
-          "fingerprint": "firefox",
-          "publicKey": "mzrVbIsEggpJfXR8M7yxki2vgv3sXWQdy1bGhXqatUY",
-          "shortId": "79651ae525860543",
-          "spiderX": "/"
+          "serverName": "ya.ru",
+          "fingerprint": "chrome",
+          "publicKey": "J0wsOjbRgcuh0_Btlci3kQoXM9LBGL8lvD5IPftExS8",
+          "shortId": "5563d518"
         }
       }
     },
