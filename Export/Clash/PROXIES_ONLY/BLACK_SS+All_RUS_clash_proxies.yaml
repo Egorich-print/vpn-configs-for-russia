@@ -3,13 +3,24 @@
 # Источник/Source: BLACK_SS+All_RUS.txt
 # 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
 # Количество/Quantity: 8
-# Date/Time: 2026-10-02 / 15:54 (Moscow)
+# Date/Time: 2026-10-02 / 16:51 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
 
 proxies:
 - name: Igareck Node 001 | 🇺🇸 United States | 🌐 | [BL]
+  type: ss
+  server: "\x31\x33\x34\x2e\x31\x39\x35\x2e\x31\x30\x31\x2e\x31\x31\x37"
+  port: 2377
+  cipher: chacha20-ietf-poly1305
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
+- name: Igareck Node 002 | 🇺🇸 United States | 🌐 | [BL]
   type: ss
   server: "\x31\x33\x34\x2e\x31\x39\x35\x2e\x31\x30\x31\x2e\x31\x31\x39"
   port: 2377
@@ -20,15 +31,6 @@ proxies:
   plugin-opts:
     mode: tls
     host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-- name: Igareck Node 002 | 🇰🇿 Kazakhstan， Almaty | [BL]
-  type: hysteria2
-  server: "\x31\x39\x34\x2e\x35\x38\x2e\x34\x32\x2e\x31\x30\x30"
-  port: 8444
-  password: 7599d30f-5507-43b1-ba9d-35f1cf483ba6
-  udp: true
-  sni: kz.th3web.com
-  alpn:
-  - h3
 - name: Igareck Node 003 | 🇺🇸 United States， Ashburn | [BL]
   type: hysteria2
   server: "\x31\x32\x39\x2e\x32\x31\x33\x2e\x39\x31\x2e\x31\x38\x35"
@@ -49,43 +51,57 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 005 | 🇺🇸 United States， Los Angeles | [BL]
-  type: trojan
-  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
-  port: 10443
-  password: a2cd097a-9b02-4e45-ab60-799b3f8e8d6c
+- name: Igareck Node 005 | 🇩🇪 Germany， Frankfurt am Main (Innenstadt I) | [BL]
+  type: vmess
+  server: "\x33\x31\x2e\x35\x39\x2e\x35\x38\x2e\x32\x33\x32"
+  port: 20772
+  uuid: "\x64\x36\x39\x30\x30\x37\x66\x39\x2d\x62\x30\x33\x38\x2d\x34\x31\x35\x36\x2d\x64\x32\x37\x66\x2d\x66\x38\x31\x66\x31\x38\x30\x39\x34\x65\x63\x66"
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: 45.205.27.78
-  client-fingerprint: android
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 006 | 🇺🇸 United States， Los Angeles | [BL]
-  type: trojan
-  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
-  port: 10443
-  password: a2cd097a-9b02-4e45-ab60-799b3f8e8d6c
+  network: ws
+  ws-opts:
+    path: /ray
+- name: Igareck Node 006 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: vmess
+  server: "\x63\x75\x2e\x38\x37\x37\x37\x37\x34\x2e\x78\x79\x7a"
+  port: 443
+  uuid: "\x66\x33\x32\x34\x34\x65\x32\x38\x2d\x31\x35\x37\x62\x2d\x34\x39\x65\x39\x2d\x39\x37\x33\x30\x2d\x38\x39\x38\x33\x32\x66\x38\x39\x65\x62\x63\x63"
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: 45.205.27.78
-  client-fingerprint: firefox
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 007 | 🇺🇸 United States， Los Angeles | [BL]
-  type: trojan
-  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
-  port: 10443
-  password: a2cd097a-9b02-4e45-ab60-799b3f8e8d6c
+  tls: true
+  network: ws
+  ws-opts:
+    path: /vmess-argo
+    headers:
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+- name: Igareck Node 007 | 🇺🇸 United States， St Louis (Downtown) | [BL]
+  type: vmess
+  server: "\x63\x68\x61\x74\x67\x70\x74\x2e\x63\x6f\x6d"
+  port: 8443
+  uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: 45.205.27.78
-  client-fingerprint: qq
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 008 | 🇺🇸 United States， Los Angeles | [BL]
-  type: trojan
-  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
-  port: 10443
-  password: a2cd097a-9b02-4e45-ab60-799b3f8e8d6c
+  tls: true
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: Igareck Node 008 | 🇺🇸 United States， St Louis (Downtown) | [BL]
+  type: vmess
+  server: "\x63\x68\x61\x74\x67\x70\x74\x2e\x63\x6f\x6d"
+  port: 8443
+  uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: 45.205.27.78
-  client-fingerprint: safari
-  network: tcp
-  skip-cert-verify: true
+  tls: true
+  servername: "\x76\x32\x72\x61\x79\x31\x2e\x64\x6f\x7a\x61\x70\x70\x2e\x78\x79\x7a"
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
