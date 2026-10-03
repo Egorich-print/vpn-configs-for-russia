@@ -3,28 +3,13 @@
 # Источник/Source: WHITE-SNI-RU-all.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # Количество/Quantity: 5
-# Date/Time: 2026-10-03 / 18:14 (Moscow)
+# Date/Time: 2026-10-03 / 19:35 (Moscow)
 #
 # Не содержит никаких настроек, только список прокси / No settings, just proxies list;
 # ============================================================
 
 proxies:
-- name: Igareck Node 001 | 🇬🇧 United Kingdom | 🌐 | [SNI-RU] cdn.tbank.ru
-  type: vless
-  server: "\x31\x30\x34\x2e\x31\x39\x34\x2e\x31\x34\x34\x2e\x31\x39\x35"
-  port: 443
-  uuid: "\x36\x62\x63\x62\x38\x37\x39\x32\x2d\x35\x30\x64\x39\x2d\x34\x65\x34\x63\x2d\x38\x63\x62\x65\x2d\x66\x31\x33\x34\x33\x61\x36\x32\x61\x63\x62\x63"
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: "\x63\x64\x6e\x2e\x74\x62\x61\x6e\x6b\x2e\x72\x75"
-  client-fingerprint: android
-  reality-opts:
-    public-key: 3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw
-    short-id: "2bd6a47090adc591"
-  network: tcp
-  skip-cert-verify: true
-- name: Igareck Node 002 | 🇬🇧 United Kingdom | 🌐 | [SNI-RU] cdn.tbank.ru
+- name: Igareck Node 001 | 🇬🇧 United Kingdom | 🌐 [SNI-RU] cdn.tbank.ru
   type: vless
   server: "\x31\x30\x34\x2e\x31\x39\x34\x2e\x31\x34\x34\x2e\x31\x39\x35"
   port: 443
@@ -39,7 +24,7 @@ proxies:
     short-id: "2bd6a47090adc591"
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 003 | 🇬🇧 United Kingdom | 🌐 | [SNI-RU] cdn.tbank.ru
+- name: Igareck Node 002 | 🇬🇧 United Kingdom | 🌐 [SNI-RU] cdn.tbank.ru
   type: vless
   server: "\x31\x30\x34\x2e\x31\x39\x34\x2e\x31\x34\x34\x2e\x31\x39\x35"
   port: 443
@@ -54,7 +39,7 @@ proxies:
     short-id: "2bd6a47090adc591"
   network: tcp
   skip-cert-verify: true
-- name: Igareck Node 004 | 🇬🇧 United Kingdom | 🌐 | [SNI-RU] cdn.tbank.ru
+- name: Igareck Node 003 | 🇬🇧 United Kingdom | 🌐 [SNI-RU] cdn.tbank.ru
   type: vless
   server: "\x31\x30\x34\x2e\x31\x39\x34\x2e\x31\x34\x34\x2e\x31\x39\x35"
   port: 443
@@ -64,6 +49,21 @@ proxies:
   tls: true
   servername: "\x63\x64\x6e\x2e\x74\x62\x61\x6e\x6b\x2e\x72\x75"
   client-fingerprint: qq
+  reality-opts:
+    public-key: 3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw
+    short-id: "2bd6a47090adc591"
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 004 | 🇬🇧 United Kingdom | 🌐 | [SNI-RU] cdn.tbank.ru
+  type: vless
+  server: "\x31\x30\x34\x2e\x31\x39\x34\x2e\x31\x34\x34\x2e\x31\x39\x35"
+  port: 443
+  uuid: "\x36\x62\x63\x62\x38\x37\x39\x32\x2d\x35\x30\x64\x39\x2d\x34\x65\x34\x63\x2d\x38\x63\x62\x65\x2d\x66\x31\x33\x34\x33\x61\x36\x32\x61\x63\x62\x63"
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: "\x63\x64\x6e\x2e\x74\x62\x61\x6e\x6b\x2e\x72\x75"
+  client-fingerprint: android
   reality-opts:
     public-key: 3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw
     short-id: "2bd6a47090adc591"
