@@ -2,8 +2,8 @@
 # Igareck Mihomo Subscription
 # Источник/Source: BLACK_SS+All_RUS.txt
 # 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
-# Количество/Quantity: 15
-# Date/Time: 2026-10-03 / 15:18 (Moscow)
+# Количество/Quantity: 16
+# Date/Time: 2026-10-03 / 16:27 (Moscow)
 #
 # Режим / Mode:
 # - Автоматический Выбор лучшего прокси / Igareck Auto Select;
@@ -187,7 +187,17 @@ proxies:
   plugin-opts:
     mode: tls
     host: (Telegram🇨🇳 @VPNine1)fa03bb5:137563
-- name: Igareck Node 004 | 🇵🇱 Poland， Warsaw | [BL]
+- name: Igareck Node 004 | 🇯🇵 Japan | 🌐 | [BL]
+  type: hysteria2
+  server: "\x31\x36\x30\x2e\x31\x36\x2e\x37\x31\x2e\x35\x32"
+  port: 8843
+  password: ee872217-9c78-402c-a002-6a2af50b0227
+  udp: true
+  sni: updates.cdn-apple.com
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 005 | 🇵🇱 Poland， Warsaw | [BL]
   type: hysteria2
   server: "\x70\x6c\x34\x2e\x68\x31\x63\x6c\x6f\x75\x64\x2e\x6e\x65\x74"
   port: 25019
@@ -197,144 +207,126 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 005 | 🇩🇪 Germany， Frankfurt am Main (Innenstadt I) | [BL]
-  type: vmess
-  server: "\x33\x31\x2e\x35\x39\x2e\x35\x38\x2e\x32\x33\x32"
-  port: 20772
-  uuid: "\x64\x36\x39\x30\x30\x37\x66\x39\x2d\x62\x30\x33\x38\x2d\x34\x31\x35\x36\x2d\x64\x32\x37\x66\x2d\x66\x38\x31\x66\x31\x38\x30\x39\x34\x65\x63\x66"
-  alterId: 0
-  cipher: auto
+- name: Igareck Node 006 | 🇺🇸 United States， San Jose | 🌐 | [BL]
+  type: hysteria2
+  server: "\x31\x36\x33\x2e\x31\x39\x32\x2e\x31\x34\x2e\x31\x33\x35"
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
   udp: true
-  network: ws
-  ws-opts:
-    path: /ray
-- name: Igareck Node 006 | 🇩🇪 Germany， Frankfurt am Main (Innenstadt I) | [BL]
+  sni: www.bing.com
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 007 | 🇸🇬 Singapore， Singapore | [BL]
   type: vmess
-  server: "\x33\x31\x2e\x35\x39\x2e\x35\x38\x2e\x32\x33\x32"
-  port: 20772
-  uuid: "\x64\x36\x39\x30\x30\x37\x66\x39\x2d\x62\x30\x33\x38\x2d\x34\x31\x35\x36\x2d\x64\x32\x37\x66\x2d\x66\x38\x31\x66\x31\x38\x30\x39\x34\x65\x63\x66"
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /ray
-- name: Igareck Node 007 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+  server: "\x48\x5a\x58\x71\x44\x73\x6c\x41\x4e\x32\x34\x33\x64\x65\x51\x37\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
   port: 443
-  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
+  uuid: "\x31\x30\x36\x61\x31\x65\x65\x62\x34\x39\x35\x63\x34\x64\x65\x61\x62\x35\x34\x31\x34\x33\x34\x39\x31\x63\x33\x65\x30\x32\x32\x33"
   alterId: 0
   cipher: auto
   udp: true
   tls: true
+  servername: "\x48\x5a\x58\x71\x44\x73\x6c\x41\x4e\x32\x34\x33\x64\x65\x51\x37\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
   network: ws
   ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+    path: /ws-vmess
     headers:
-      Host: jmp1.907737.xyz
-- name: Igareck Node 008 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+      Host: HZXqDslAN243deQ7.v.3dns.vip
+- name: Igareck Node 008 | 🇰🇷 South Korea， Yongsan-dong | [BL]
   type: vmess
-  server: "\x63\x75\x2e\x38\x37\x37\x37\x37\x34\x2e\x78\x79\x7a"
+  server: "\x34\x42\x54\x65\x38\x53\x4d\x56\x55\x77\x38\x57\x6b\x33\x6c\x4e\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
   port: 443
-  uuid: "\x66\x33\x32\x34\x34\x65\x32\x38\x2d\x31\x35\x37\x62\x2d\x34\x39\x65\x39\x2d\x39\x37\x33\x30\x2d\x38\x39\x38\x33\x32\x66\x38\x39\x65\x62\x63\x63"
+  uuid: "\x39\x62\x33\x31\x34\x39\x30\x64\x2d\x31\x39\x30\x65\x2d\x34\x65\x66\x31\x2d\x61\x66\x30\x61\x2d\x37\x63\x63\x61\x62\x33\x65\x37\x63\x33\x62\x35"
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  servername: "\x62\x61\x6c\x61\x6e\x63\x65\x64\x2d\x6d\x69\x6e\x64\x73\x2d\x63\x61\x72\x72\x69\x65\x72\x2d\x64\x65\x6d\x61\x6e\x64\x69\x6e\x67\x2e\x74\x72\x79\x63\x6c\x6f\x75\x64\x66\x6c\x61\x72\x65\x2e\x63\x6f\x6d"
+  servername: "\x34\x42\x54\x65\x38\x53\x4d\x56\x55\x77\x38\x57\x6b\x33\x6c\x4e\x2e\x76\x2e\x33\x64\x6e\x73\x2e\x76\x69\x70"
   network: ws
   ws-opts:
-    path: /vmess-argo
+    path: /ws-vmess
     headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-- name: Igareck Node 009 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+      Host: 4BTe8SMVUw8Wk3lN.v.3dns.vip
+- name: Igareck Node 009 | 🇵🇱 Poland， Gdansk | [BL]
+  type: trojan
+  server: "\x70\x6c\x2e\x74\x72\x6f\x6e\x73\x67\x2e\x63\x6f\x6d"
   port: 443
-  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
-  alterId: 0
-  cipher: auto
+  password: Trojan@82164024
   udp: true
-  tls: true
-  servername: "\x6a\x6d\x70\x31\x2e\x39\x30\x37\x37\x33\x37\x2e\x78\x79\x7a"
-  network: ws
-  ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-    headers:
-      Host: jmp1.907737.xyz
-- name: Igareck Node 010 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+  sni: pl.tronsg.com
+  client-fingerprint: android
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 010 | 🇵🇱 Poland， Gdansk | [BL]
+  type: trojan
+  server: "\x70\x6c\x2e\x74\x72\x6f\x6e\x73\x67\x2e\x63\x6f\x6d"
   port: 443
-  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
-  alterId: 0
-  cipher: auto
+  password: Trojan@82164024
   udp: true
-  tls: true
-  servername: "\x6a\x6d\x70\x31\x2e\x39\x30\x37\x37\x33\x37\x2e\x78\x79\x7a"
-  network: ws
-  ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-    headers:
-      Host: jmp1.907737.xyz
-- name: Igareck Node 011 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+  sni: pl.tronsg.com
+  client-fingerprint: firefox
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 011 | 🇵🇱 Poland， Gdansk | [BL]
+  type: trojan
+  server: "\x70\x6c\x2e\x74\x72\x6f\x6e\x73\x67\x2e\x63\x6f\x6d"
   port: 443
-  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
-  alterId: 0
-  cipher: auto
+  password: Trojan@82164024
   udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
-    headers:
-      Host: jmp1.907737.xyz
-- name: Igareck Node 012 | 🇭🇰 Hong Kong， Hong Kong | [BL]
-  type: vmess
-  server: "\x63\x75\x2e\x38\x37\x37\x37\x37\x34\x2e\x78\x79\x7a"
+  sni: pl.tronsg.com
+  client-fingerprint: ios
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 012 | 🇵🇱 Poland， Gdansk | [BL]
+  type: trojan
+  server: "\x70\x6c\x2e\x74\x72\x6f\x6e\x73\x67\x2e\x63\x6f\x6d"
   port: 443
-  uuid: "\x66\x33\x32\x34\x34\x65\x32\x38\x2d\x31\x35\x37\x62\x2d\x34\x39\x65\x39\x2d\x39\x37\x33\x30\x2d\x38\x39\x38\x33\x32\x66\x38\x39\x65\x62\x63\x63"
-  alterId: 0
-  cipher: auto
+  password: Trojan@82164024
   udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /vmess-argo
-    headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-- name: Igareck Node 013 | 🇺🇸 United States， Orem | [BL]
-  type: vmess
-  server: "\x33\x31\x2e\x37\x37\x2e\x38\x2e\x39\x37"
-  port: 110
-  uuid: "\x64\x32\x64\x38\x36\x30\x31\x62\x2d\x63\x31\x34\x62\x2d\x34\x32\x63\x36\x2d\x62\x38\x65\x61\x2d\x33\x33\x38\x38\x39\x62\x63\x65\x31\x35\x32\x61"
-  alterId: 0
-  cipher: auto
+  sni: pl.tronsg.com
+  client-fingerprint: qq
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 013 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
+  port: 10443
+  password: a2d27bc0-bbcc-4798-b156-62059c537737
   udp: true
-- name: Igareck Node 014 | 🇺🇸 United States， Orem | [BL]
-  type: vmess
-  server: "\x33\x31\x2e\x37\x37\x2e\x38\x2e\x39\x37"
-  port: 110
-  uuid: "\x64\x32\x64\x38\x36\x30\x31\x62\x2d\x63\x31\x34\x62\x2d\x34\x32\x63\x36\x2d\x62\x38\x65\x61\x2d\x33\x33\x38\x38\x39\x62\x63\x65\x31\x35\x32\x61"
-  alterId: 0
-  cipher: auto
+  sni: 45.205.27.78
+  client-fingerprint: android
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 014 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
+  port: 10443
+  password: a2d27bc0-bbcc-4798-b156-62059c537737
   udp: true
-- name: Igareck Node 015 | 🇺🇸 United States， St Louis (Downtown) | [BL]
-  type: vmess
-  server: "\x63\x68\x61\x74\x67\x70\x74\x2e\x63\x6f\x6d"
-  port: 8443
-  uuid: "\x36\x30\x34\x34\x31\x35\x34\x38\x2d\x62\x36\x38\x65\x2d\x34\x33\x62\x32\x2d\x38\x31\x39\x31\x2d\x65\x33\x62\x38\x38\x34\x62\x65\x34\x62\x33\x63"
-  alterId: 0
-  cipher: auto
+  sni: 45.205.27.78
+  client-fingerprint: chrome
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 015 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
+  port: 10443
+  password: a2d27bc0-bbcc-4798-b156-62059c537737
   udp: true
-  tls: true
-  servername: "\x76\x32\x72\x61\x79\x31\x2e\x64\x6f\x7a\x61\x70\x70\x2e\x78\x79\x7a"
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
+  sni: 45.205.27.78
+  client-fingerprint: edge
+  network: tcp
+  skip-cert-verify: true
+- name: Igareck Node 016 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x34\x35\x2e\x32\x30\x35\x2e\x32\x37\x2e\x37\x38"
+  port: 10443
+  password: a2d27bc0-bbcc-4798-b156-62059c537737
+  udp: true
+  sni: 45.205.27.78
+  client-fingerprint: safari
+  network: tcp
+  skip-cert-verify: true
 
 proxy-groups:
   - name: "Igareck Auto Select (Автоподключение)"
