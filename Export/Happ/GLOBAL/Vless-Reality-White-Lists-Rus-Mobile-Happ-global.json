@@ -3,12 +3,12 @@
     "name": "Vless-Reality-White-Lists-Rus-Mobile — Happ Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "5 proxies",
+      "6 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "Happ",
     "source": "Vless-Reality-White-Lists-Rus-Mobile.txt",
-    "source_datetime": "2026-10-04 15:59 Moscow"
+    "source_datetime": "2026-10-04 17:17 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -69,7 +69,7 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -126,7 +126,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -147,7 +147,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -168,7 +168,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -189,7 +189,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -210,7 +210,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -231,7 +231,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -252,7 +252,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -273,7 +273,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -294,7 +294,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -315,7 +315,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -336,7 +336,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -357,7 +357,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:by-msq-2.blook.network"
+          "full:msk.frkn.org"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -439,11 +439,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "by-msq-2.blook.network",
+            "address": "62.152.58.90",
             "port": 443,
             "users": [
               {
-                "id": "f9a2e475-0c03-4eb4-8680-0c69f90af8ae",
+                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
                 "encryption": "none"
               }
             ]
@@ -451,34 +451,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "by-msq-2.blook.network",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "360.yandex.ru",
+          "fingerprint": "chrome",
+          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
+          "shortId": "27e53bbcab7593d7",
+          "spiderX": "/"
         }
       }
     },
@@ -488,11 +476,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "by-msq-2.blook.network",
+            "address": "62.152.58.90",
             "port": 443,
             "users": [
               {
-                "id": "f9a2e475-0c03-4eb4-8680-0c69f90af8ae",
+                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
                 "encryption": "none"
               }
             ]
@@ -500,34 +488,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "by-msq-2.blook.network",
-          "fingerprint": "android",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "360.yandex.ru",
+          "fingerprint": "firefox",
+          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
+          "shortId": "27e53bbcab7593d7",
+          "spiderX": "/"
         }
       }
     },
@@ -537,11 +513,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "by-msq-2.blook.network",
+            "address": "62.152.58.90",
             "port": 443,
             "users": [
               {
-                "id": "f9a2e475-0c03-4eb4-8680-0c69f90af8ae",
+                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
                 "encryption": "none"
               }
             ]
@@ -549,34 +525,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "by-msq-2.blook.network",
-          "fingerprint": "edge",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "360.yandex.ru",
+          "fingerprint": "qq",
+          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
+          "shortId": "27e53bbcab7593d7",
+          "spiderX": "/"
         }
       }
     },
@@ -586,11 +550,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "by-msq-2.blook.network",
+            "address": "62.152.58.90",
             "port": 443,
             "users": [
               {
-                "id": "f9a2e475-0c03-4eb4-8680-0c69f90af8ae",
+                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
                 "encryption": "none"
               }
             ]
@@ -598,34 +562,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "by-msq-2.blook.network",
-          "fingerprint": "qq",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "360.yandex.ru",
+          "fingerprint": "random",
+          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
+          "shortId": "27e53bbcab7593d7",
+          "spiderX": "/"
         }
       }
     },
@@ -635,11 +587,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "by-msq-2.blook.network",
+            "address": "62.152.58.90",
             "port": 443,
             "users": [
               {
-                "id": "f9a2e475-0c03-4eb4-8680-0c69f90af8ae",
+                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
                 "encryption": "none"
               }
             ]
@@ -647,34 +599,49 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+        "grpcSettings": {
+          "serviceName": "",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "by-msq-2.blook.network",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "360.yandex.ru",
           "fingerprint": "safari",
+          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
+          "shortId": "27e53bbcab7593d7",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
+      "protocol": "hysteria",
+      "settings": {
+        "version": 2,
+        "address": "msk.frkn.org",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "security": "tls",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "f317b5d6-d399-4d3d-a051-89d674ae953c"
+        },
+        "tlsSettings": {
+          "serverName": "msk.frkn.org",
           "alpn": [
             "h3"
           ]
+        },
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
         }
       }
     },
