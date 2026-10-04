@@ -57,7 +57,8 @@
           "full:localhost",
           "domain:local",
           "domain:lan",
-          "regexp:^[^.]+$"
+          "regexp:^[^.]+$",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -113,7 +114,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -133,7 +135,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -153,7 +156,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -173,7 +177,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -193,7 +198,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -213,7 +219,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -233,7 +240,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -253,7 +261,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -273,7 +282,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -293,7 +303,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -313,7 +324,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -333,7 +345,8 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de"
+          "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -400,37 +413,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.194.144.195",
-            "port": 443,
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
             "users": [
               {
-                "id": "6bcb8792-50d9-4e4c-8cbe-f1343a62acbc",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "cdn.tbank.ru",
-          "fingerprint": "chrome",
-          "publicKey": "3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw",
-          "shortId": "2bd6a47090adc591",
-          "spiderX": "/"
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "android",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
         }
       }
     },
@@ -440,37 +449,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.194.144.195",
-            "port": 443,
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
             "users": [
               {
-                "id": "6bcb8792-50d9-4e4c-8cbe-f1343a62acbc",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "cdn.tbank.ru",
-          "fingerprint": "firefox",
-          "publicKey": "3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw",
-          "shortId": "2bd6a47090adc591",
-          "spiderX": "/"
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "chrome",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
         }
       }
     },
@@ -480,37 +485,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.194.144.195",
-            "port": 443,
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
             "users": [
               {
-                "id": "6bcb8792-50d9-4e4c-8cbe-f1343a62acbc",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "cdn.tbank.ru",
-          "fingerprint": "ios",
-          "publicKey": "3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw",
-          "shortId": "2bd6a47090adc591",
-          "spiderX": "/"
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "qq",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
         }
       }
     },
@@ -520,37 +521,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.194.144.195",
-            "port": 443,
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
             "users": [
               {
-                "id": "6bcb8792-50d9-4e4c-8cbe-f1343a62acbc",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "cdn.tbank.ru",
-          "fingerprint": "safari",
-          "publicKey": "3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw",
-          "shortId": "2bd6a47090adc591",
-          "spiderX": "/"
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "random",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
         }
       }
     },
@@ -560,57 +557,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.194.144.195",
-            "port": 443,
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
             "users": [
               {
-                "id": "6bcb8792-50d9-4e4c-8cbe-f1343a62acbc",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "cdn.tbank.ru",
-          "fingerprint": "android",
-          "publicKey": "3vgqsFm1j-00-_jN25zuuty59lk7yn5YFMIfL5LwwRw",
-          "shortId": "2bd6a47090adc591",
-          "spiderX": "/"
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "safari",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
         }
-      }
-    },
-    {
-      "tag": "fragment",
-      "protocol": "freedom",
-      "settings": {
-        "fragment": {
-          "packets": "1-3",
-          "length": "50-100",
-          "interval": "10-20",
-          "maxSplit": "10"
-        },
-        "noises": [
-          {
-            "type": "rand",
-            "packet": "50-150",
-            "delay": "10-50"
-          }
-        ]
       }
     },
     {
