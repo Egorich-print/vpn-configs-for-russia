@@ -3,12 +3,12 @@
     "name": "WHITE-SNI-RU-all — v2rayNG Auto Select GLOBAL",
     "generator": "Igareck GitHub",
     "notes": [
-      "2 proxies",
+      "7 proxies",
       "Interval is 5 minutes + leastPing + routing GLOBAL."
     ],
     "client": "v2rayNG",
     "source": "WHITE-SNI-RU-all.txt",
-    "source_datetime": "2026-10-04 19:51 Moscow"
+    "source_datetime": "2026-10-04 21:09 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -70,6 +70,7 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -127,6 +128,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -148,6 +150,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -169,6 +172,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -190,6 +194,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -211,6 +216,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -232,6 +238,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -253,6 +260,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -274,6 +282,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -295,6 +304,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -316,6 +326,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -337,6 +348,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -358,6 +370,7 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
+          "full:nl.riotvpn.eu",
           "full:nl-hy-test.tcp-reset-club.net"
         ],
         "skipFallback": true,
@@ -442,6 +455,186 @@
   "outbounds": [
     {
       "tag": "igareck-node-001",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
+            "users": [
+              {
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "android",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-002",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
+            "users": [
+              {
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "chrome",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-003",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
+            "users": [
+              {
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "qq",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-004",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
+            "users": [
+              {
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "random",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-005",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl.riotvpn.eu",
+            "port": 6443,
+            "users": [
+              {
+                "id": "d7b4d5b3-2c2d-493c-9b83-f25e3f6771b2",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "avatars.mds.yandex.net",
+          "fingerprint": "safari",
+          "publicKey": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "shortId": "844352756c1fabba"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-006",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -468,7 +661,7 @@
       }
     },
     {
-      "tag": "igareck-node-002",
+      "tag": "igareck-node-007",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
