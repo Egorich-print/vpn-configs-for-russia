@@ -57,8 +57,7 @@
           "full:localhost",
           "domain:local",
           "domain:lan",
-          "regexp:^[^.]+$",
-          "full:ru-svo-1.blook.network"
+          "regexp:^[^.]+$"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -114,8 +113,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -135,8 +133,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -156,8 +153,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -177,8 +173,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -198,8 +193,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -219,8 +213,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -240,8 +233,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -261,8 +253,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -282,8 +273,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -303,8 +293,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -324,8 +313,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -345,8 +333,7 @@
           "full:doh.dns4all.eu",
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
-          "full:blank.dnsforge.de",
-          "full:ru-svo-1.blook.network"
+          "full:blank.dnsforge.de"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -413,11 +400,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.152.58.90",
-            "port": 443,
+            "address": "5.188.81.58",
+            "port": 500,
             "users": [
               {
-                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
+                "id": "3f222a01-62d1-5e63-b9b8-6668ff0088b5",
                 "encryption": "none"
               }
             ]
@@ -425,21 +412,23 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/live/seg",
+          "host": "media.illusion-id.ru",
+          "mode": "auto"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "360.yandex.ru",
-          "fingerprint": "chrome",
-          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "shortId": "27e53bbcab7593d7"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "media.illusion-id.ru",
+          "fingerprint": "edge",
+          "alpn": [
+            "h3"
+          ]
         }
       }
     },
@@ -449,11 +438,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.152.58.90",
-            "port": 443,
+            "address": "5.188.81.58",
+            "port": 500,
             "users": [
               {
-                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
+                "id": "3f222a01-62d1-5e63-b9b8-6668ff0088b5",
                 "encryption": "none"
               }
             ]
@@ -461,21 +450,23 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/live/seg",
+          "host": "media.illusion-id.ru",
+          "mode": "auto"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "360.yandex.ru",
-          "fingerprint": "edge",
-          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "shortId": "27e53bbcab7593d7"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "media.illusion-id.ru",
+          "fingerprint": "safari",
+          "alpn": [
+            "h3"
+          ]
         }
       }
     },
@@ -485,11 +476,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.152.58.90",
-            "port": 443,
+            "address": "5.188.81.58",
+            "port": 500,
             "users": [
               {
-                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
+                "id": "3f222a01-62d1-5e63-b9b8-6668ff0088b5",
                 "encryption": "none"
               }
             ]
@@ -497,21 +488,23 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/live/seg",
+          "host": "media.illusion-id.ru",
+          "mode": "auto"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "360.yandex.ru",
-          "fingerprint": "ios",
-          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "shortId": "27e53bbcab7593d7"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "media.illusion-id.ru",
+          "fingerprint": "android",
+          "alpn": [
+            "h3"
+          ]
         }
       }
     },
@@ -521,11 +514,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.152.58.90",
-            "port": 443,
+            "address": "5.188.81.58",
+            "port": 500,
             "users": [
               {
-                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
+                "id": "3f222a01-62d1-5e63-b9b8-6668ff0088b5",
                 "encryption": "none"
               }
             ]
@@ -533,21 +526,23 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/live/seg",
+          "host": "media.illusion-id.ru",
+          "mode": "auto"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "360.yandex.ru",
-          "fingerprint": "qq",
-          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "shortId": "27e53bbcab7593d7"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "media.illusion-id.ru",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h3"
+          ]
         }
       }
     },
@@ -557,11 +552,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "62.152.58.90",
-            "port": 443,
+            "address": "5.188.81.58",
+            "port": 500,
             "users": [
               {
-                "id": "1bb2af63-4472-44ed-9c70-8f316258b68b",
+                "id": "3f222a01-62d1-5e63-b9b8-6668ff0088b5",
                 "encryption": "none"
               }
             ]
@@ -569,21 +564,23 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "",
-          "multiMode": false
+        "xhttpSettings": {
+          "path": "/live/seg",
+          "host": "media.illusion-id.ru",
+          "mode": "auto"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "360.yandex.ru",
-          "fingerprint": "safari",
-          "publicKey": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-          "shortId": "27e53bbcab7593d7"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "media.illusion-id.ru",
+          "fingerprint": "ios",
+          "alpn": [
+            "h3"
+          ]
         }
       }
     },
@@ -593,11 +590,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-svo-1.blook.network",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "1c1baccf-91e0-4ba0-8965-9c8d022c9a98",
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
                 "encryption": "none"
               }
             ]
@@ -611,28 +608,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+          "path": "/"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru-svo-1.blook.network",
-          "fingerprint": "android",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "qq",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
@@ -642,11 +625,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-svo-1.blook.network",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "1c1baccf-91e0-4ba0-8965-9c8d022c9a98",
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
                 "encryption": "none"
               }
             ]
@@ -660,28 +643,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+          "path": "/"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru-svo-1.blook.network",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
           "fingerprint": "chrome",
-          "alpn": [
-            "h3"
-          ]
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
@@ -691,11 +660,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-svo-1.blook.network",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "1c1baccf-91e0-4ba0-8965-9c8d022c9a98",
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
                 "encryption": "none"
               }
             ]
@@ -709,28 +678,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+          "path": "/"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru-svo-1.blook.network",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "edge",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
@@ -740,11 +695,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-svo-1.blook.network",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "1c1baccf-91e0-4ba0-8965-9c8d022c9a98",
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
                 "encryption": "none"
               }
             ]
@@ -758,28 +713,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+          "path": "/"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru-svo-1.blook.network",
-          "fingerprint": "ios",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "firefox",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
@@ -789,11 +730,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-svo-1.blook.network",
+            "address": "84.38.181.249",
             "port": 443,
             "users": [
               {
-                "id": "1c1baccf-91e0-4ba0-8965-9c8d022c9a98",
+                "id": "9737cc16-7266-45ce-94d9-6e05a45e0b9c",
                 "encryption": "none"
               }
             ]
@@ -807,28 +748,14 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/VLSpdG9k",
-          "mode": "stream-one",
-          "extra": {
-            "noGRPCHeader": true,
-            "scMaxEachPostBytes": 1000000,
-            "scMinPostsIntervalMs": 30,
-            "xPaddingBytes": "100-1000",
-            "xmux": {
-              "cMaxReuseTimes": "16-32",
-              "hMaxRequestTimes": "600-900",
-              "hMaxReusableSecs": "300-900",
-              "maxConnections": "3-6"
-            }
-          }
+          "path": "/"
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru-svo-1.blook.network",
-          "fingerprint": "safari",
-          "alpn": [
-            "h3"
-          ]
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "open.spotify.com",
+          "fingerprint": "ios",
+          "publicKey": "pyZ0M0nE3aGx2UtCXNhajcneyCF4E8J3zpxhIKkQw0w",
+          "shortId": "6bc02f1c474260c3"
         }
       }
     },
