@@ -436,6 +436,33 @@
       "protocol": "hysteria",
       "settings": {
         "version": 2,
+        "address": "109.235.49.234",
+        "port": 443
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "security": "tls",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "529f1911-04d5-4427-94b9-c851fd459a27"
+        },
+        "tlsSettings": {
+          "serverName": "tcp-reset-club.net",
+          "alpn": [
+            "h3"
+          ]
+        },
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-002",
+      "protocol": "hysteria",
+      "settings": {
+        "version": 2,
         "address": "nl-hy-test.tcp-reset-club.net",
         "port": 443
       },
