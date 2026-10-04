@@ -141,11 +141,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "112.132.215.108",
-            "port": 50002,
+            "address": "31.77.8.97",
+            "port": 110,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "id": "d2d8601b-c14b-42c6-b8ea-33889bce152a",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -202,11 +202,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "yg1.ygkkk.dpdns.org",
-            "port": 443,
+            "address": "39.108.113.127",
+            "port": 10086,
             "users": [
               {
-                "id": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
+                "id": "fde10e39-48bb-4dcf-b3ba-71d711323a54",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -218,17 +218,12 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
         "wsSettings": {
-          "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
-          "headers": {
-            "Host": "jmp1.907737.xyz"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {}
+          "path": "/",
+          "headers": {}
+        }
       }
     },
     {
@@ -263,9 +258,7 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {
-          "serverName": "jmp1.907737.xyz"
-        }
+        "tlsSettings": {}
       }
     },
     {
@@ -274,11 +267,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cu.877774.xyz",
+            "address": "yg1.ygkkk.dpdns.org",
             "port": 443,
             "users": [
               {
-                "id": "f3244e28-157b-49e9-9730-89832f89ebcc",
+                "id": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -294,15 +287,14 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/vmess-argo?ed=2560",
+          "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
           "headers": {
-            "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
+            "Host": "jmp1.907737.xyz"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "balanced-minds-carrier-demanding.trycloudflare.com",
-          "fingerprint": "firefox"
+          "serverName": "jmp1.907737.xyz"
         }
       }
     },
@@ -491,11 +483,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.127.32.220",
-            "port": 55002,
+            "address": "172.64.80.1",
+            "port": 8443,
             "users": [
               {
-                "id": "b25731af-0428-4274-be5d-31a273a8d632",
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
                 "alterId": 0,
                 "security": "auto"
               }
@@ -507,14 +499,17 @@
         "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "b25731af-0428-4274-be5d-31a273a8d632-vm",
+          "path": "/lMnsZUN4/",
           "headers": {
-            "Host": "www.bing.com"
+            "Host": "v2ray1.dozapp.xyz"
           }
-        }
+        },
+        "security": "tls",
+        "tlsSettings": {}
       }
     },
     {
@@ -544,9 +539,7 @@
         },
         "wsSettings": {
           "path": "/lMnsZUN4/",
-          "headers": {
-            "Host": "v2ray1.dozapp.xyz"
-          }
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
@@ -586,7 +579,9 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {}
+        "tlsSettings": {
+          "serverName": "v2ray1.dozapp.xyz"
+        }
       }
     },
     {
@@ -595,7 +590,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "172.64.80.1",
             "port": 8443,
             "users": [
               {
@@ -616,7 +611,9 @@
         },
         "wsSettings": {
           "path": "/lMnsZUN4/",
-          "headers": {}
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
         },
         "security": "tls",
         "tlsSettings": {
@@ -656,67 +653,78 @@
           }
         },
         "security": "tls",
-        "tlsSettings": {}
-      }
-    },
-    {
-      "tag": "igareck-node-017",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "cz-musicc.moritech.net",
-            "port": 443,
-            "password": "f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km"
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "grpcbeast",
-          "multiMode": false
-        },
-        "security": "tls",
         "tlsSettings": {
-          "fingerprint": "ios",
-          "alpn": [
-            "h2"
-          ]
+          "serverName": "v2ray1.dozapp.xyz"
         }
       }
     },
     {
-      "tag": "igareck-node-018",
-      "protocol": "trojan",
+      "tag": "igareck-node-017",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "cz-musicc.moritech.net",
-            "port": 443,
-            "password": "f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km"
+            "address": "172.64.80.1",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "grpcbeast",
-          "multiMode": false
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {
+            "Host": "v2ray1.dozapp.xyz"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {}
+      }
+    },
+    {
+      "tag": "igareck-node-018",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "chatgpt.com",
+            "port": 8443,
+            "users": [
+              {
+                "id": "60441548-b68e-43b2-8191-e3b884be4b3c",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/lMnsZUN4/",
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
-          "alpn": [
-            "h2"
-          ]
+          "serverName": "v2ray1.dozapp.xyz"
         }
       }
     },
@@ -744,7 +752,6 @@
         },
         "security": "tls",
         "tlsSettings": {
-          "fingerprint": "edge",
           "alpn": [
             "h2"
           ]
@@ -806,7 +813,7 @@
         },
         "security": "tls",
         "tlsSettings": {
-          "fingerprint": "chrome",
+          "fingerprint": "ios",
           "alpn": [
             "h2"
           ]
@@ -819,28 +826,28 @@
       "settings": {
         "servers": [
           {
-            "address": "pl.tronsg.com",
+            "address": "cz-musicc.moritech.net",
             "port": 443,
-            "password": "Trojan@82164024"
+            "password": "f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km"
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "grpcSettings": {
+          "serviceName": "grpcbeast",
+          "multiMode": false
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "pl.tronsg.com",
-          "fingerprint": "chrome"
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -901,7 +908,8 @@
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "pl.tronsg.com"
+          "serverName": "pl.tronsg.com",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -911,34 +919,27 @@
       "settings": {
         "servers": [
           {
-            "address": "www.speedtest.org",
-            "port": 2053,
-            "password": "e309e031-991e-4656-9934-44d10deb8fd8"
+            "address": "pl.tronsg.com",
+            "port": 443,
+            "password": "Trojan@82164024"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/0962",
-          "headers": {
-            "Host": "nimm.mpd.cc.cd."
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "nimm.mpd.cc.cd.",
-          "fingerprint": "ios",
-          "alpn": [
-            "h3",
-            "h2",
-            "http/1.1"
-          ]
+          "serverName": "pl.tronsg.com"
         }
       }
     },
@@ -970,6 +971,67 @@
         "tlsSettings": {
           "serverName": "grape-test-italy.dynuddns.net",
           "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-027",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "82.158.91.183",
+            "port": 20002,
+            "password": "9da85a1b1b804a2a"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "goodus.zxmm.eu.org",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "igareck-node-028",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "goodus.zxmm.eu.org",
+            "port": 20002,
+            "password": "9da85a1b1b804a2a"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "goodus.zxmm.eu.org"
         }
       }
     },
