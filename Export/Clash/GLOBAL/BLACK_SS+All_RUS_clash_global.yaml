@@ -2,8 +2,8 @@
 # Igareck Mihomo Subscription
 # Источник/Source: BLACK_SS+All_RUS.txt
 # 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
-# Количество/Quantity: 19
-# Date/Time: 2026-10-05 / 14:50 (Moscow)
+# Количество/Quantity: 46
+# Date/Time: 2026-10-05 / 16:02 (Moscow)
 #
 # Режим / Mode:
 # - Автоматический Выбор лучшего прокси / Igareck Auto Select;
@@ -154,63 +154,17 @@ sniffer:
       ports: [443, 8443]
 
 proxies:
-- name: Igareck Node 001 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+- name: Igareck Node 001 | 🇭🇰 Hong Kong， Hong Kong | 🌐 | [BL]
   type: hysteria2
-  server: "\x37\x38\x2e\x31\x37\x2e\x32\x30\x39\x2e\x31\x30\x38"
-  port: 8443
-  password: d402d4c0b8354a90b70bb2566dce9a08
+  server: "\x78\x67\x31\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
+  port: 2060
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   udp: true
-  sni: i.wareznet.ru
-  alpn:
-  - h3
-- name: Igareck Node 002 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
-  type: hysteria2
-  server: "\x37\x38\x2e\x31\x37\x2e\x32\x30\x39\x2e\x31\x30\x38"
-  port: 8446
-  password: d402d4c0b8354a90b70bb2566dce9a08
-  udp: true
-  sni: i.wareznet.ru
-  alpn:
-  - h3
-- name: Igareck Node 003 | 🇨🇿 Czechia， Prague | [BL]
-  type: hysteria2
-  server: "\x31\x36\x32\x2e\x32\x34\x39\x2e\x31\x32\x37\x2e\x31\x35\x34"
-  port: 8443
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  udp: true
-  sni: hop-germany-september.dynuddns.com
-  alpn:
-  - h3
-- name: Igareck Node 004 | 🇩🇪 Germany， Frankfurt am Main | [BL]
-  type: hysteria2
-  server: "\x69\x2e\x77\x61\x72\x65\x7a\x6e\x65\x74\x2e\x72\x75"
-  port: 8446
-  password: d402d4c0b8354a90b70bb2566dce9a08
-  udp: true
-  sni: i.wareznet.ru
-  alpn:
-  - h3
-- name: Igareck Node 005 | 🇯🇵 Japan | 🌐 | [BL]
-  type: hysteria2
-  server: "\x31\x36\x30\x2e\x31\x36\x2e\x37\x31\x2e\x35\x32"
-  port: 8843
-  password: ee872217-9c78-402c-a002-6a2af50b0227
-  udp: true
-  sni: updates.cdn-apple.com
+  sni: xg1.mangshe.xyz
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 006 | 🇸🇬 Singapore， Singapore | [BL]
-  type: hysteria2
-  server: "\x76\x70\x6e\x2d\x68\x6b\x2d\x30\x30\x34\x2e\x66\x61\x73\x74\x65\x72\x76\x70\x6e\x2e\x77\x6f\x72\x6c\x64"
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  udp: true
-  sni: vpn-hk-004.fastervpn.world
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 007 | 🇺🇸 United States， Los Angeles | [BL]
+- name: Igareck Node 002 | 🇺🇸 United States， Los Angeles | [BL]
   type: hysteria2
   server: "\x31\x30\x38\x2e\x31\x38\x31\x2e\x36\x2e\x35\x31"
   port: 50145
@@ -220,7 +174,17 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 008 | 🇺🇸 United States， Seattle | [BL]
+- name: Igareck Node 003 | 🇺🇸 United States， San Jose | 🌐 | [BL]
+  type: hysteria2
+  server: "\x31\x36\x33\x2e\x31\x39\x32\x2e\x31\x34\x2e\x31\x33\x35"
+  port: 50160
+  password: 099830134df5ac3a04a4b21d39b8c395
+  udp: true
+  sni: speedtest.tinkoff.ru
+  alpn:
+  - h3
+  skip-cert-verify: true
+- name: Igareck Node 004 | 🇺🇸 United States， Seattle | [BL]
   type: hysteria2
   server: "\x6d\x67\x2e\x6d\x61\x6e\x67\x73\x68\x65\x2e\x78\x79\x7a"
   port: 2060
@@ -230,125 +194,426 @@ proxies:
   alpn:
   - h3
   skip-cert-verify: true
-- name: Igareck Node 009 | 🌐 Anycast-IP | 🇺🇸 | [BL]
-  type: hysteria2
-  server: "\x31\x35\x36\x2e\x32\x32\x39\x2e\x31\x36\x30\x2e\x32\x35\x33"
-  port: 55000
-  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
-  udp: true
-  sni: www.bing.com
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 010 | 🌐 Anycast-IP | 🇺🇸 | [BL]
-  type: hysteria2
-  server: "\x31\x35\x36\x2e\x32\x32\x39\x2e\x31\x36\x30\x2e\x32\x35\x33"
-  port: 55000
-  password: f9e76796-72ba-4af1-9435-a556bd81c140
-  udp: true
-  sni: www.bing.com
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 011 | 🌐 Anycast-IP | 🇺🇸 | [BL]
-  type: hysteria2
-  server: "\x31\x35\x36\x2e\x32\x32\x39\x2e\x31\x36\x30\x2e\x32\x35\x33"
-  port: 55000
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  udp: true
-  sni: www.bing.com
-  alpn:
-  - h3
-  skip-cert-verify: true
-- name: Igareck Node 012 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+- name: Igareck Node 005 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
   type: vmess
-  server: "\x34\x35\x2e\x31\x32\x37\x2e\x33\x32\x2e\x32\x32\x30"
-  port: 55002
-  uuid: "\x62\x32\x35\x37\x33\x31\x61\x66\x2d\x30\x34\x32\x38\x2d\x34\x32\x37\x34\x2d\x62\x65\x35\x64\x2d\x33\x31\x61\x32\x37\x33\x61\x38\x64\x36\x33\x32"
+  server: "\x33\x31\x2e\x37\x37\x2e\x38\x2e\x39\x37"
+  port: 110
+  uuid: "\x64\x32\x64\x38\x36\x30\x31\x62\x2d\x63\x31\x34\x62\x2d\x34\x32\x63\x36\x2d\x62\x38\x65\x61\x2d\x33\x33\x38\x38\x39\x62\x63\x65\x31\x35\x32\x61"
   alterId: 0
   cipher: auto
   udp: true
-  network: ws
-  ws-opts:
-    path: b25731af-0428-4274-be5d-31a273a8d632-vm
-    headers:
-      Host: www.bing.com
-- name: Igareck Node 013 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+- name: Igareck Node 006 | 🇨🇳 China， Hefei | [BL]
   type: vmess
-  server: "\x63\x75\x2e\x38\x37\x37\x37\x37\x34\x2e\x78\x79\x7a"
-  port: 443
-  uuid: "\x66\x33\x32\x34\x34\x65\x32\x38\x2d\x31\x35\x37\x62\x2d\x34\x39\x65\x39\x2d\x39\x37\x33\x30\x2d\x38\x39\x38\x33\x32\x66\x38\x39\x65\x62\x63\x63"
-  alterId: 0
+  server: "\x31\x31\x32\x2e\x31\x33\x32\x2e\x32\x31\x35\x2e\x31\x30\x38"
+  port: 50002
+  uuid: "\x34\x31\x38\x30\x34\x38\x61\x66\x2d\x61\x32\x39\x33\x2d\x34\x62\x39\x39\x2d\x39\x62\x30\x63\x2d\x39\x38\x63\x61\x33\x35\x38\x30\x64\x64\x32\x34"
+  alterId: 64
   cipher: auto
   udp: true
-  tls: true
-  servername: "\x62\x61\x6c\x61\x6e\x63\x65\x64\x2d\x6d\x69\x6e\x64\x73\x2d\x63\x61\x72\x72\x69\x65\x72\x2d\x64\x65\x6d\x61\x6e\x64\x69\x6e\x67\x2e\x74\x72\x79\x63\x6c\x6f\x75\x64\x66\x6c\x61\x72\x65\x2e\x63\x6f\x6d"
-  network: ws
-  ws-opts:
-    path: /vmess-argo
-    headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-- name: Igareck Node 014 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+- name: Igareck Node 007 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: vmess
-  server: "\x63\x75\x2e\x38\x37\x37\x37\x37\x34\x2e\x78\x79\x7a"
+  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
   port: 443
-  uuid: "\x66\x33\x32\x34\x34\x65\x32\x38\x2d\x31\x35\x37\x62\x2d\x34\x39\x65\x39\x2d\x39\x37\x33\x30\x2d\x38\x39\x38\x33\x32\x66\x38\x39\x65\x62\x63\x63"
+  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   network: ws
   ws-opts:
-    path: /vmess-argo
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
     headers:
-      Host: balanced-minds-carrier-demanding.trycloudflare.com
-- name: Igareck Node 015 | 🇸🇬 Singapore， Singapore | 🌐 | [BL]
+      Host: jmp1.907737.xyz
+- name: Igareck Node 008 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: vmess
-  server: "\x34\x35\x2e\x31\x32\x37\x2e\x33\x32\x2e\x32\x32\x30"
-  port: 55002
-  uuid: "\x62\x32\x35\x37\x33\x31\x61\x66\x2d\x30\x34\x32\x38\x2d\x34\x32\x37\x34\x2d\x62\x65\x35\x64\x2d\x33\x31\x61\x32\x37\x33\x61\x38\x64\x36\x33\x32"
+  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+  port: 443
+  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
   alterId: 0
   cipher: auto
   udp: true
+  tls: true
+  servername: "\x6a\x6d\x70\x31\x2e\x39\x30\x37\x37\x33\x37\x2e\x78\x79\x7a"
   network: ws
   ws-opts:
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
     headers:
-      Host: www.bing.com
-- name: Igareck Node 016 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+      Host: jmp1.907737.xyz
+- name: Igareck Node 009 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: vmess
+  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+  port: 443
+  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: "\x6a\x6d\x70\x31\x2e\x39\x30\x37\x37\x33\x37\x2e\x78\x79\x7a"
+  network: ws
+  ws-opts:
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+    headers:
+      Host: jmp1.907737.xyz
+- name: Igareck Node 010 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: vmess
+  server: "\x79\x67\x31\x2e\x79\x67\x6b\x6b\x6b\x2e\x64\x70\x64\x6e\x73\x2e\x6f\x72\x67"
+  port: 443
+  uuid: "\x62\x32\x62\x61\x34\x61\x37\x33\x2d\x33\x31\x32\x33\x2d\x34\x37\x39\x65\x2d\x61\x61\x39\x36\x2d\x35\x39\x37\x33\x61\x39\x65\x63\x64\x30\x63\x30"
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+    headers:
+      Host: jmp1.907737.xyz
+- name: Igareck Node 011 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: trojan
-  server: "\x31\x39\x35\x2e\x31\x35\x2e\x32\x30\x32\x2e\x31\x31\x31"
-  port: 4455
-  password: g44i2hzwivmm7r29
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
   udp: true
-  sni: play-apps-features.googleusercontent.com
+  sni: node1.luoye.ee
   client-fingerprint: android
   network: tcp
-- name: Igareck Node 017 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+- name: Igareck Node 012 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: trojan
-  server: "\x31\x39\x35\x2e\x31\x35\x2e\x32\x30\x32\x2e\x31\x31\x31"
-  port: 4455
-  password: g44i2hzwivmm7r29
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
   udp: true
-  sni: play-apps-features.googleusercontent.com
+  sni: node1.luoye.ee
   client-fingerprint: chrome
   network: tcp
-- name: Igareck Node 018 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+- name: Igareck Node 013 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: trojan
-  server: "\x31\x39\x35\x2e\x31\x35\x2e\x32\x30\x32\x2e\x31\x31\x31"
-  port: 4455
-  password: g44i2hzwivmm7r29
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
   udp: true
-  sni: play-apps-features.googleusercontent.com
+  sni: node1.luoye.ee
   client-fingerprint: edge
   network: tcp
-- name: Igareck Node 019 | .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+- name: Igareck Node 014 | 🇭🇰 Hong Kong， Hong Kong | [BL]
   type: trojan
-  server: "\x31\x39\x35\x2e\x31\x35\x2e\x32\x30\x32\x2e\x31\x31\x31"
-  port: 4455
-  password: g44i2hzwivmm7r29
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
   udp: true
-  sni: play-apps-features.googleusercontent.com
+  sni: node1.luoye.ee
+  client-fingerprint: safari
+  network: tcp
+- name: Igareck Node 015 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node1.luoye.ee
+  client-fingerprint: android
+  network: tcp
+- name: Igareck Node 016 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node1.luoye.ee
+  client-fingerprint: edge
+  network: tcp
+- name: Igareck Node 017 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node1.luoye.ee
+  client-fingerprint: firefox
+  network: tcp
+- name: Igareck Node 018 | 🇭🇰 Hong Kong， Hong Kong | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x31\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node1.luoye.ee
+  client-fingerprint: safari
+  network: tcp
+- name: Igareck Node 019 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: android
+  network: tcp
+- name: Igareck Node 020 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: chrome
+  network: tcp
+- name: Igareck Node 021 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: qq
+  network: tcp
+- name: Igareck Node 022 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: safari
+  network: tcp
+- name: Igareck Node 023 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: chrome
+  network: tcp
+- name: Igareck Node 024 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: firefox
+  network: tcp
+- name: Igareck Node 025 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: ios
+  network: tcp
+- name: Igareck Node 026 | 🇭🇰 Hong Kong， Kwai Chung | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x32\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node2.luoye.ee
+  client-fingerprint: qq
+  network: tcp
+- name: Igareck Node 027 | 🇳🇱 The Netherlands， Eygelshoven | 🌐 | [BL]
+  type: trojan
+  server: "\x31\x33\x30\x2e\x31\x37\x2e\x32\x30\x2e\x32\x30\x37"
+  port: 443
+  password: 6EEINO4XoG1Bl0PrG3Pvrg
+  udp: true
+  sni: z.2233nm.fun
+  alpn:
+  - h3
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: z.2233nm.fun
+- name: Igareck Node 028 | 🇳🇱 The Netherlands， Eygelshoven | 🌐 | [BL]
+  type: trojan
+  server: "\x31\x33\x30\x2e\x31\x37\x2e\x32\x30\x2e\x32\x30\x37"
+  port: 443
+  password: 6EEINO4XoG1Bl0PrG3Pvrg
+  udp: true
+  sni: z.2233nm.fun
+  alpn:
+  - h3
+  client-fingerprint: edge
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: z.2233nm.fun
+- name: Igareck Node 029 | 🇳🇱 The Netherlands， Eygelshoven | 🌐 | [BL]
+  type: trojan
+  server: "\x31\x33\x30\x2e\x31\x37\x2e\x32\x30\x2e\x32\x30\x37"
+  port: 443
+  password: 6EEINO4XoG1Bl0PrG3Pvrg
+  udp: true
+  sni: z.2233nm.fun
+  alpn:
+  - h3
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: z.2233nm.fun
+- name: Igareck Node 030 | 🇳🇱 The Netherlands， Eygelshoven | 🌐 | [BL]
+  type: trojan
+  server: "\x31\x33\x30\x2e\x31\x37\x2e\x32\x30\x2e\x32\x30\x37"
+  port: 443
+  password: 6EEINO4XoG1Bl0PrG3Pvrg
+  udp: true
+  sni: z.2233nm.fun
+  alpn:
+  - h3
+  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: z.2233nm.fun
+- name: Igareck Node 031 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: firefox
+  network: tcp
+- name: Igareck Node 032 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: ios
+  network: tcp
+- name: Igareck Node 033 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: qq
+  network: tcp
+- name: Igareck Node 034 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: bcf46247-c770-43b6-9183-cd1758ff5c6e
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: safari
+  network: tcp
+- name: Igareck Node 035 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: chrome
+  network: tcp
+- name: Igareck Node 036 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: edge
+  network: tcp
+- name: Igareck Node 037 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: ios
+  network: tcp
+- name: Igareck Node 038 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: c5d96e83-4b1f-462e-a9fe-9fccd31d7d2b
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: qq
+  network: tcp
+- name: Igareck Node 039 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: android
+  network: tcp
+- name: Igareck Node 040 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: chrome
+  network: tcp
+- name: Igareck Node 041 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: firefox
+  network: tcp
+- name: Igareck Node 042 | 🇺🇸 United States， Los Angeles | [BL]
+  type: trojan
+  server: "\x6e\x6f\x64\x65\x35\x2e\x6c\x75\x6f\x79\x65\x2e\x65\x65"
+  port: 443
+  password: cb2c3c0b-436e-4c22-a7cd-4ba5c673c101
+  udp: true
+  sni: node5.luoye.ee
+  client-fingerprint: ios
+  network: tcp
+- name: Igareck Node 043 | 🇺🇸 United States， San Jose (Brokaw) | [BL]
+  type: trojan
+  server: "\x32\x33\x2e\x31\x30\x36\x2e\x34\x34\x2e\x31\x34"
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  udp: true
+  sni: sj6.freeguard.org
+  client-fingerprint: android
+  network: tcp
+- name: Igareck Node 044 | 🇺🇸 United States， San Jose (Brokaw) | [BL]
+  type: trojan
+  server: "\x32\x33\x2e\x31\x30\x36\x2e\x34\x34\x2e\x31\x34"
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  udp: true
+  sni: sj6.freeguard.org
+  client-fingerprint: firefox
+  network: tcp
+- name: Igareck Node 045 | 🇺🇸 United States， San Jose (Brokaw) | [BL]
+  type: trojan
+  server: "\x32\x33\x2e\x31\x30\x36\x2e\x34\x34\x2e\x31\x34"
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  udp: true
+  sni: sj6.freeguard.org
+  client-fingerprint: qq
+  network: tcp
+- name: Igareck Node 046 | 🇺🇸 United States， San Jose (Brokaw) | [BL]
+  type: trojan
+  server: "\x32\x33\x2e\x31\x30\x36\x2e\x34\x34\x2e\x31\x34"
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  udp: true
+  sni: sj6.freeguard.org
   client-fingerprint: safari
   network: tcp
 
