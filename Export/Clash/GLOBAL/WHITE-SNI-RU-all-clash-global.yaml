@@ -3,7 +3,7 @@
 # Источник/Source: WHITE-SNI-RU-all.txt
 # 🏳️ БЕЛЫЕ СПИСКИ 🏳️ WHITE LISTS | SNI-RU
 # Количество/Quantity: 2
-# Date/Time: 2026-10-07 / 03:14 (Moscow)
+# Date/Time: 2026-10-07 / 04:30 (Moscow)
 #
 # Режим / Mode:
 # - Автоматический Выбор лучшего прокси / Igareck Auto Select;
@@ -165,7 +165,6 @@ proxies:
     public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
     short-id: "d8d4ee24"
   network: tcp
-  skip-cert-verify: true
 - name: Igareck Node 002 | 🇵🇱 Poland | [SNI-RU] storage.yandexcloud.net
   type: vless
   server: "\x33\x31\x2e\x37\x36\x2e\x38\x32\x2e\x31\x31\x33"
@@ -175,12 +174,11 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: "\x73\x74\x6f\x72\x61\x67\x65\x2e\x79\x61\x6e\x64\x65\x78\x63\x6c\x6f\x75\x64\x2e\x6e\x65\x74"
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
     short-id: "d8d4ee24"
   network: tcp
-  skip-cert-verify: true
 
 proxy-groups:
   - name: "Igareck Auto Select (Автоподключение)"
